@@ -1,0 +1,23 @@
+.btn {
+  cursor: pointer;
+
+  &:not(:first-child){
+    margin-inline-start: 15px;
+  }
+}
+
+.registrationBtn {
+  padding: 8px 14px;
+  background-color: hsl(82, 57%, 43%);
+  border: 1px solid hsl(82, 57%, 43%);
+  border-radius: 4px;
+  color: white;
+}
+
+.logInBtn {
+  padding: 8px 14px;
+  background-color: hsl(208 55.7% 44%);
+  border: 1px solid hsl(208 55.7% 44%);
+  border-radius: 4px;
+  color: white;
+}

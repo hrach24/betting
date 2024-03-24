@@ -1,10 +1,20 @@
 import React from 'react';
-import classes from './Header.module.scss'
+import classes from './Header.module.scss';
+import {Link} from "react-router-dom";
+
+import headerLogoImg from '../../../assets/images/logo.svg';
+import HeaderLinks from "./headerLinks/HeaderLinks";
+import HeaderLoginSection from "./headerLoginSection/HeaderLoginSection";
 
 const Header = () => {
     return (
         <header className={classes.header}>
-            <div style={{height: '100px', marginTop: '10px'}}>sdasd</div>
+            <Link to={'/'} className={classes.logo}>
+                <img src={headerLogoImg} alt=""/>
+            </Link>
+            <HeaderLinks />
+            <HeaderLoginSection />
+
         </header>
     );
 };

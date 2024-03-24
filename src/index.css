@@ -8,6 +8,16 @@
     }
 }
 
+body {
+    font-family: Roboto, serif;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/font/roboto.ttf);
+}
+
 .aside {
     position: sticky;
     top: 112px;
@@ -16,4 +26,12 @@
     overflow-y: auto;
     max-height: calc(100vh - 112px);
     border: 10px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
