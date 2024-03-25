@@ -1,5 +1,8 @@
 .bonus {
   display: flex;
+  @media screen and (max-width: 1350px){
+    margin-inline-end: 10px;
+  }
 }
 
 .bonusContainer {
@@ -8,6 +11,9 @@
   background-color: hsl(208deg 60% 41.83%);
   border-radius: 3px;
   cursor: pointer;
+  &:hover {
+    background-color: var(--bt-loginBtn-hover-color);
+  }
 }
 
 .bonusContainer img {

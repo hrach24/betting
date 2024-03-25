@@ -4,8 +4,10 @@
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background-color: hsl(208 61% 32% / 1);
+  background-color: var(--bt-primary-color);
   z-index: 2;
+  height: var(--bt-header-height);
+  font-weight: 700;
 }
 
 .logo {

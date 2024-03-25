@@ -1,0 +1,43 @@
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  top: var(--bt-header-height);
+  left: 0;
+  z-index: 1;
+}
+
+.mobileMenu {
+  width: 200px;
+  height: calc(100vh - var(--bt-header-height));
+  background-color: var(--bt-primary-color);
+  position: absolute;
+  right: -200px;
+  transition: right 5.3s ease;
+}
+
+.open {
+  animation-name: open-menu;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards ;
+}
+
+.btnContainer {
+  margin-inline-start: 20px;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  @media screen and (max-width: 1350px) {
+    margin-inline-start: 0;
+    padding: 0 4px;
+  }
+}
+
+@keyframes open-menu {
+  100% {
+    right: 0;
+  }
+}

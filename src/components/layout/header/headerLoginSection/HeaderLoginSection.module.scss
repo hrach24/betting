@@ -7,32 +7,52 @@
 .btnContainer {
   margin-inline-start: 20px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  @media screen and (max-width: 1350px) {
+    margin-inline-start: 0;
+  }
+  @media screen and (max-width: 440px){
+    gap: 10px;
+    margin-top: 10px;
+  }
 }
 
 .menuBurgerImg {
   cursor: pointer;
   width: 30px;
+  margin-inline-start: 20px;
 }
 
 .mobileMenu {
   width: 200px;
-  height: calc(100vh - 51px);
-  background-color: red;
+  height: calc(100vh - var(--bt-header-height));
+  background-color: var(--bt-primary-color);
   position: absolute;
   right: -200px;
-  top: 51px;
   transition: right 5.3s ease;
 }
 
 .open {
-  animation-name: change-color;
+  animation-name: open-menu;
   animation-duration: 0.8s;
   animation-fill-mode: forwards ;
 }
 
-@keyframes change-color {
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  top: var(--bt-header-height);
+  left: 0;
+  z-index: 1;
+}
+
+
+@keyframes open-menu {
   100% {
     right: 0;
   }
 }
+

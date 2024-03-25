@@ -1,21 +1,27 @@
+ul{
+  list-style-type: none;
+}
+
 .sportDropDown {
   position: absolute;
-  width: 230px;
+  width: 231px;
   background-color: white;
   top: 100%;
   padding: 15px 20px 10px;
+  @media screen and (max-width: 1350px){
+    position: unset;
+    padding: 15px 5px 10px;
+  }
 }
 
 .dropDownLink{
   color: hsl(208, 62%, 40%);
-  padding: 0 10px 0;
+  padding: 0 3px 0;
 }
 
 .dropDownLink:hover {
   color: hsl(82, 56%, 50%);
   border-left: 2px solid hsl(81, 75%, 38%);
-
-
 }
 
 .dropDownItem:not(:first-child) {

@@ -1,0 +1,17 @@
+.collapseContainer {
+  width: 100%;
+}
+
+.collapseButton {
+  width: 100%;
+  padding: 8px;
+  background-color: var(--bt-primary-color);
+  border: 1px solod var(--bt-primary-color);
+  color: hsl(208,37%,73%);
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--bt-loginBtn-hover-color);
+  }
+}

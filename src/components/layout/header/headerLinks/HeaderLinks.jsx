@@ -5,79 +5,101 @@ import {Link} from "react-router-dom";
 import arrowDownImg from '../../../../assets/images/arrowDown.png';
 import classNames from "classnames";
 import DropDown from "../dropdown/DropDown";
-import {useMediaQuery} from "react-responsive";
+import { useMediaQuery } from "react-responsive";
 
 const HeaderLinks = () => {
     const [sportHover, setSportHover] = useState(false);
-    const showMenuLinks = useMediaQuery({query: '(max-width: 978px)'})
+    const isTablet = useMediaQuery({query: '(max-width: 1350px)'});
 
     return (
         <nav className={classes.navigation}>
-
-            {
-                showMenuLinks ? null
-                    :
-                    <ul className={classes.navigationList}>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classNames(classes.sportLink, classes.navigationLink)} to={''}
-                                  onMouseEnter={() => setSportHover(true)} onMouseLeave={() => setSportHover(false)}>
-                                SPORTS
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                            {
-                                sportHover ? <DropDown/> : null
-                            }
-                        </li>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classes.navigationLink} to={''}>
-                                LIVE
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                        </li>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classes.navigationLink} to={''}>
-                                1XGAMES
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                        </li>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classes.navigationLink} to={''}>
-                                CASINO
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                        </li>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classes.navigationLink} to={''}>
-                                LIVE CASINO
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                        </li>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classes.navigationLink} to={''}>
-                                ESPORTS
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                        </li>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classes.navigationLink} to={''}>
-                                PROMO
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                        </li>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classes.navigationLink} to={''}>
-                                BINGO
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                        </li>
-                        <li className={classes.navigationListItem}>
-                            <Link className={classes.navigationLink} to={''}>
-                                MORE
-                                <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
-                            </Link>
-                        </li>
-                    </ul>
-            }
+            <ul className={classNames(classes.navigationList)}>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}
+                          onMouseEnter={() => !isTablet ? setSportHover(true) : null} onMouseLeave={() => setSportHover(false)} onClick={() => setSportHover(!sportHover)}>
+                        SPORTS
+                        <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>
+                    </Link>
+                    {
+                        sportHover ? <DropDown setSportHover={setSportHover}/> : null
+                    }
+                </li>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}>
+                        LIVE
+                        {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
+                    </Link>
+                </li>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}>
+                        1XGAMES
+                        {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
+                    </Link>
+                </li>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}>
+                        CASINO
+                        {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
+                    </Link>
+                </li>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}>
+                        LIVE CASINO
+                        {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
+                    </Link>
+                </li>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}>
+                        ESPORTS
+                        {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
+                    </Link>
+                </li>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}>
+                        PROMO
+                        {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
+                    </Link>
+                </li>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}>
+                        BINGO
+                        {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
+                    </Link>
+                </li>
+                <li className={classes.navigationListItem}>
+                    <Link className={classNames(classes.navigationLink, {
+                        [classes.desktopViewNavigationLink]: !isTablet,
+                        [classes.tabletViewNavigationLink]: isTablet
+                    })} to={''}>
+                        MORE
+                        {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
+                    </Link>
+                </li>
+            </ul>
         </nav>
     );
 };

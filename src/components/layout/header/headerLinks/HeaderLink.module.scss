@@ -2,21 +2,33 @@
   display: flex;
   margin-inline-start: 30px;
   flex-grow: 1;
+  @media screen and (max-width: 1350px){
+    margin-inline-start: 5px;
+  }
 }
 
 .navigationList {
   display: flex;
+  @media screen and (max-width: 1350px){
+    flex-direction: column;
+    font-size: 2rem;
+    width: 98%;
+  }
 }
 
 .navigationListItem {
   display: flex;
   position: relative;
+  flex-wrap: wrap;
   font-size: 14px;
 }
 
 .navigationLink {
   display: flex;
   align-items: center;
+}
+
+.desktopViewNavigationLink {
   color: white;
   padding: 0 10px;
 }
@@ -31,11 +43,22 @@ nav ul li a {
   transition: color 0.2s ease;
 }
 
-nav:hover ul li .navigationLink {
+nav ul:hover li .navigationLink {
   color: #d9c6c6;
+  @media screen and (max-width: 1350px){
+    color: black;
+  }
 }
 
 nav ul li:hover .navigationLink {
   color: white;
 }
 
+.tabletViewNavigationLink {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 1rem;
+  padding: 10px 0;
+}

@@ -1,8 +1,13 @@
 .btn {
   cursor: pointer;
-
   &:not(:first-child){
     margin-inline-start: 15px;
+    @media screen and (max-width: 440px){
+      margin-inline-start: 0;
+    }
+  }
+  @media screen and (max-width: 440px){
+    width: 100%;
   }
 }
 
@@ -12,6 +17,9 @@
   border: 1px solid hsl(82, 57%, 43%);
   border-radius: 4px;
   color: white;
+  &:hover {
+    background-color: var(--bt-registerBtn-hover-color)
+  }
 }
 
 .logInBtn {
@@ -20,4 +28,7 @@
   border: 1px solid hsl(208 55.7% 44%);
   border-radius: 4px;
   color: white;
+  &:hover {
+    background-color: var(--bt-loginBtn-hover-color)
+  }
 }
