@@ -13,8 +13,8 @@
 
 .registrationBtn {
   padding: 8px 14px;
-  background-color: hsl(82, 57%, 43%);
-  border: 1px solid hsl(82, 57%, 43%);
+  background-color: var(--bt-registrationBtn-color);
+  border: 1px solid var(--bt-registrationBtn-color);
   border-radius: 4px;
   color: white;
   &:hover {

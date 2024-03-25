@@ -9,7 +9,7 @@ const CollapseButton = ({ hideLeftSideBar }) => {
 
     return (
         <div className={classes.collapseContainer}>
-            <button className={classes.collapseButton} onClick={() => sendTrueToParent(!clicked)}> {'<<'} {!clicked ? 'Collapse block' : null} </button>
+            <button className={classes.collapseButton} onClick={() => sendTrueToParent(!clicked)}> {!clicked ? '<< Collapse block' : '>>'} </button>
         </div>
     );
 };

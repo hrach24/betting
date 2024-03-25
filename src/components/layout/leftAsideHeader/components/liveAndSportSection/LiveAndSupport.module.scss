@@ -1,0 +1,39 @@
+.sportAndLiveSection {
+  display: flex;
+  margin-top: 10px;
+}
+
+.common {
+  display: flex;
+  flex-grow: 1;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 7px 10px;
+}
+
+.active {
+  background-color: hsl(208, 62%, 40%);
+}
+
+.deActivated {
+  background-color: hsl(208, 61%, 32%);
+  opacity: 0.6;
+}
+
+.liveDot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--bt-registrationBtn-color);
+  border-radius: 50%;
+  margin-inline-end: 5px;
+}
+
+.liveText {
+  font-size: 14px;
+}
+
+.sportText {
+  font-size: 14px;
+}
