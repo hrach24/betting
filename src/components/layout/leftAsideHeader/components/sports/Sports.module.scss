@@ -1,0 +1,62 @@
+.sports {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.sportList {
+  display: flex;
+  flex-direction: column;
+}
+
+.sportItemInfo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  &:hover {
+    background-color: hsl(209,31%,87%);
+  }
+}
+
+.sportItem {
+  display: flex;
+  border-bottom: 1px solid #288181;
+  height: 33px;
+  cursor: pointer;
+}
+
+.sportItemImg {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  margin: 5px;
+}
+
+.sportItemTitle {
+  margin-inline-start: 10px;
+  font-size: 14px;
+  color: #1D4268;
+}
+
+.sportItemCount {
+  font-size: 14px;
+  margin-inline-start: 4px;
+  color: #7599B8;
+}
+
+.dropDownButton {
+  width: 32px;
+  height: 100%;
+  padding: 8px;
+  border-left: 1px solid hsl(208,32%,59%);
+  cursor: pointer;
+  &:hover {
+    background-color: hsl(209,31%,87%);
+  }
+}
+
+.dropDownButton img {
+  width: 100%;
+  object-fit: contain;
+}

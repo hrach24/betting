@@ -1,15 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import classes from "./CollapseButton.module.scss";
-const CollapseButton = ({ hideLeftSideBar }) => {
-    const [clicked, updateClicked] = useState(false);
-    function sendTrueToParent (prop) {
-        hideLeftSideBar(prop)
-        updateClicked(!clicked)
-    }
+
+const CollapseButton = ({ updateTheProp, showLeftBar }) => {
 
     return (
         <div className={classes.collapseContainer}>
-            <button className={classes.collapseButton} onClick={() => sendTrueToParent(!clicked)}> {!clicked ? '<< Collapse block' : '>>'} </button>
+            <button className={classes.collapseButton} onClick={() => updateTheProp(prevState => !prevState)}> {!showLeftBar ? '<< Collapse block' : '>>'} </button>
         </div>
     );
 };
