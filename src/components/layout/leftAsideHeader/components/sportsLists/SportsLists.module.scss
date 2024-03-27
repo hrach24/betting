@@ -1,0 +1,68 @@
+.sportItem {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--bt-sport-count-color);
+  cursor: pointer;
+}
+
+.sportItemContainer {
+  display: flex;
+  flex-direction: row;;
+  flex-grow: 1;
+}
+
+.sportItemInfo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  &:hover {
+    background-color: var(--bt-sport-hover-backgroundColor);
+  }
+}
+
+.sportItemImg {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  margin: 5px;
+  flex-shrink: 0;
+}
+
+.sportItemImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sportItemTitle {
+  margin-inline-start: 10px;
+  font-size: 14px;
+  color: var(--bt-sport-title-color);
+}
+
+.sportItemCount {
+  font-size: 14px;
+  margin-inline-start: 4px;
+  color: #7599B8;
+}
+
+.dropDownButton {
+  width: 32px;
+  height: 100%;
+  padding: 8px;
+  border-left: 1px solid hsl(208,32%,59%);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--bt-sport-hover-backgroundColor);
+  }
+}
+
+.dropDownButton img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blackArrowUp {
+  rotate: 180deg;
+}
