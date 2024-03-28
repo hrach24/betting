@@ -7,11 +7,13 @@ import Sports from "./components/sports/Sports";
 
 const LeftAsideFooter = () => {
   const [showLeftBar, updateTheProp] = useState(false);
+
   return (
     <div
       className={classNames(classes.leftAsideFooter, "aside", {
         [classes.minimizeLeftBar]: showLeftBar,
-      })}>
+      })}
+    >
       <CollapseButton updateTheProp={updateTheProp} showLeftBar={showLeftBar} />
       {showLeftBar ? (
         <div className={classes.mobileLiveDot}>

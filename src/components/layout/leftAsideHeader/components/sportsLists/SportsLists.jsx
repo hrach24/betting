@@ -3,7 +3,7 @@ import classes from "./SportsLists.module.scss";
 import blackArrowDownImg from "../../../../../assets/images/blackArrowDown.png";
 import SportLeague from "../sportsLeague/SportLeague";
 const SportsLists = ({ title, count, img, leagues }) => {
-  const [showLeauge, updateLeague] = useState(false);
+  const [showLeague, updateLeague] = useState(false);
 
   return (
     <li className={classes.sportItem}>
@@ -15,15 +15,18 @@ const SportsLists = ({ title, count, img, leagues }) => {
           <span className={classes.sportItemTitle}>{title}</span>
           <span className={classes.sportItemCount}>{count}</span>
         </div>
-        <div className={classes.dropDownButton} onClick={() => updateLeague(!showLeauge)}>
-          {!showLeauge ? (
+        <div
+          className={classes.dropDownButton}
+          onClick={() => updateLeague(!showLeague)}
+        >
+          {!showLeague ? (
             <img src={blackArrowDownImg} alt="" />
           ) : (
             <img src={blackArrowDownImg} className={classes.blackArrowUp} />
           )}
         </div>
       </div>
-      {showLeauge ? <SportLeague leagues={leagues} /> : null}
+      {showLeague ? <SportLeague leagues={leagues} /> : null}
     </li>
   );
 };
