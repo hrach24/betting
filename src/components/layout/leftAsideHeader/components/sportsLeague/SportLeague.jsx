@@ -3,6 +3,7 @@ import classes from "./SportLeague.module.scss";
 import SportLeagueItem from "./sportLeagueItem/SportLeagueItem";
 
 const SportLeague = ({ leagues }) => {
+  console.log(leagues);
   return (
     <div className={classes.leagues}>
       <ul className={classes.leaguesList}>
