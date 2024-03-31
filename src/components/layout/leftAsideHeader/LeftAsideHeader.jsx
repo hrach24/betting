@@ -10,7 +10,7 @@ const LeftAsideFooter = () => {
 
   return (
     <div
-      className={classNames(classes.leftAsideFooter, "aside", {
+      className={classNames(classes.leftAsideFooter, "aside", "globalPadding", {
         [classes.minimizeLeftBar]: showLeftBar,
       })}
     >

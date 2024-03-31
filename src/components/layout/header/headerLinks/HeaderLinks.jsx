@@ -23,9 +23,14 @@ const HeaderLinks = () => {
             to={""}
             onMouseEnter={() => (!isTablet ? setSportHover(true) : null)}
             onMouseLeave={() => setSportHover(false)}
-            onClick={() => setSportHover(!sportHover)}>
+            onClick={() => setSportHover(!sportHover)}
+          >
             SPORTS
-            <img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg} />
+            <img
+              src={arrowDownImg}
+              alt="arrowDown"
+              className={classes.arrowDownImg}
+            />
           </Link>
           {sportHover ? <DropDown setSportHover={setSportHover} /> : null}
         </li>
@@ -35,7 +40,8 @@ const HeaderLinks = () => {
               [classes.desktopViewNavigationLink]: !isTablet,
               [classes.tabletViewNavigationLink]: isTablet,
             })}
-            to={""}>
+            to={""}
+          >
             LIVE
             {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
           </Link>
@@ -46,7 +52,8 @@ const HeaderLinks = () => {
               [classes.desktopViewNavigationLink]: !isTablet,
               [classes.tabletViewNavigationLink]: isTablet,
             })}
-            to={""}>
+            to={""}
+          >
             1XGAMES
             {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
           </Link>
@@ -57,7 +64,8 @@ const HeaderLinks = () => {
               [classes.desktopViewNavigationLink]: !isTablet,
               [classes.tabletViewNavigationLink]: isTablet,
             })}
-            to={""}>
+            to={""}
+          >
             CASINO
             {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
           </Link>
@@ -68,7 +76,8 @@ const HeaderLinks = () => {
               [classes.desktopViewNavigationLink]: !isTablet,
               [classes.tabletViewNavigationLink]: isTablet,
             })}
-            to={""}>
+            to={""}
+          >
             LIVE CASINO
             {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
           </Link>
@@ -79,7 +88,8 @@ const HeaderLinks = () => {
               [classes.desktopViewNavigationLink]: !isTablet,
               [classes.tabletViewNavigationLink]: isTablet,
             })}
-            to={""}>
+            to={""}
+          >
             ESPORTS
             {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
           </Link>
@@ -90,7 +100,8 @@ const HeaderLinks = () => {
               [classes.desktopViewNavigationLink]: !isTablet,
               [classes.tabletViewNavigationLink]: isTablet,
             })}
-            to={""}>
+            to={""}
+          >
             PROMO
             {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
           </Link>
@@ -101,7 +112,8 @@ const HeaderLinks = () => {
               [classes.desktopViewNavigationLink]: !isTablet,
               [classes.tabletViewNavigationLink]: isTablet,
             })}
-            to={""}>
+            to={""}
+          >
             BINGO
             {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
           </Link>
@@ -112,7 +124,8 @@ const HeaderLinks = () => {
               [classes.desktopViewNavigationLink]: !isTablet,
               [classes.tabletViewNavigationLink]: isTablet,
             })}
-            to={""}>
+            to={""}
+          >
             MORE
             {/*<img src={arrowDownImg} alt="arrowDown" className={classes.arrowDownImg}/>*/}
           </Link>

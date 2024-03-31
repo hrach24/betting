@@ -10,7 +10,8 @@ const MobileMenu = ({ openMenuBurger, btnsMediaForPhoneMedia }) => {
       <div
         className={classNames(classes.mobileMenu, {
           [classes.open]: openMenuBurger,
-        })}>
+        })}
+      >
         <HeaderLinks />
         {btnsMediaForPhoneMedia ? (
           <div className={classes.btnContainer}>

@@ -8,6 +8,8 @@ import tableTennis from "../assets/images/tabelTennis.png";
 import australiaImg from "../assets/images/auImg.png";
 import japanImg from "../assets/images/japan.png";
 import georgiaFlag from "../assets/images/georgiaFlag.png";
+import goldenStateImg from "../assets/images/goldenState.png";
+import espnImg from "../assets/images/ESPN.png";
 
 export const sportsList = [
   {
@@ -19,16 +21,85 @@ export const sportsList = [
         title: "Australian Cup",
         count: "(3)",
         img: australiaImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            computerIcon: true,
+            starIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Japan",
         count: "(3)",
         img: japanImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            computerIcon: true,
+            starIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Georgia, Superliga",
         count: "(5)",
         img: georgiaFlag,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            computerIcon: true,
+            starIcon: false,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -41,16 +112,85 @@ export const sportsList = [
         title: "Australian Cup",
         count: "(3)",
         img: australiaImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            computerIcon: false,
+            starIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Japan",
         count: "(3)",
         img: japanImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: false,
+            computerIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Georgia, Superliga",
         count: "(5)",
         img: georgiaFlag,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: false,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -63,16 +203,85 @@ export const sportsList = [
         title: "Australian Cup",
         count: "(3)",
         img: australiaImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Japan",
         count: "(3)",
         img: japanImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Georgia, Superliga",
         count: "(5)",
         img: georgiaFlag,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: false,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -85,16 +294,85 @@ export const sportsList = [
         title: "Australian Cup",
         count: "(3)",
         img: australiaImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: false,
+            computerIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Japan",
         count: "(3)",
         img: japanImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: false,
+            computerIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Georgia, Superliga",
         count: "(5)",
         img: georgiaFlag,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: false,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -107,16 +385,85 @@ export const sportsList = [
         title: "Australian Cup",
         count: "(3)",
         img: australiaImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: false,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Japan",
         count: "(3)",
         img: japanImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: false,
+            computerIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Georgia, Superliga",
         count: "(5)",
         img: georgiaFlag,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -129,16 +476,85 @@ export const sportsList = [
         title: "Australian Cup",
         count: "(3)",
         img: australiaImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: false,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Japan",
         count: "(3)",
         img: japanImg,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: true,
+            computerIcon: false,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Georgia, Superliga",
         count: "(5)",
         img: georgiaFlag,
+        matches: [
+          {
+            id: 1,
+            matchTitle: "Rocket league",
+            firstTeam: "Golden State",
+            firstTeamLogo: goldenStateImg,
+            secondTeam: "ESPN",
+            secondTeamLogo: espnImg,
+            matchDescription: "2-й Тайм, прошло 51 мин / Тур 5",
+            starIcon: false,
+            computerIcon: true,
+            scores: [
+              {
+                firstTeamScore: "24",
+                secondTeamScore: "52",
+              },
+              {
+                firstTeamScore: "1",
+                secondTeamScore: "4ssss",
+              },
+            ],
+          },
+        ],
       },
     ],
   },

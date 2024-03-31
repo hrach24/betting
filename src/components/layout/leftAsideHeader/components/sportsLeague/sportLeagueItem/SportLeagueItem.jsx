@@ -4,6 +4,7 @@ import classes from "./SportLeagueItem.module.scss";
 import CurrentMatch from "../../currentMatch/CurrentMatch";
 import classNames from "classnames";
 const SportLeagueItem = ({ item }) => {
+  console.log(item);
   const [showCurrentMatch, updateCurrentMatch] = useState(false);
   return (
     <li key={item.title} className={classes.leagueListItem}>
@@ -28,7 +29,7 @@ const SportLeagueItem = ({ item }) => {
           />
         </div>
       </div>
-      {showCurrentMatch ? <CurrentMatch /> : null}
+      {showCurrentMatch ? <CurrentMatch currentMatch={item.matches} /> : null}
     </li>
   );
 };

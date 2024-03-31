@@ -160,7 +160,7 @@ img {
 button,
 input,
 optgroup,
-select,
+optionInfo,
 textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
@@ -184,7 +184,7 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+optionInfo { /* 1 */
   text-transform: none;
 }
 

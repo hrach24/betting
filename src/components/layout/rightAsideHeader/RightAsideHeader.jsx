@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from "./RightAsideHeader.module.scss";
 import classNames from "classnames";
+import CollapseButton from "../leftAsideHeader/components/collapseButton/CollapseButton";
+import Registration from "./registration/Registration";
+import BetSlip from "./betSlip/BetSlip";
 const RightAsideHeader = () => {
+  const [showLeftBar, updateTheProp] = useState(false);
+
   return (
-    <div className={classNames(classes.rightAsideHeader, "aside")}>
-      {Array.from(Array(20), (e, i) => (
-        <div key={e} style={{ height: "100px" }}>
-          sdasd, {i}
-        </div>
-      ))}
+    <div
+      className={classNames(
+        classes.rightAsideHeader,
+        "aside",
+        "globalPadding",
+        {
+          [classes.minimizeLeftBar]: showLeftBar,
+        },
+      )}
+    >
+      <CollapseButton updateTheProp={updateTheProp} showLeftBar={showLeftBar} />
+      <Registration />
+      <BetSlip />
     </div>
   );
 };

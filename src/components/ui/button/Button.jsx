@@ -8,7 +8,8 @@ const Button = ({ registration, logInBtn, text }) => {
       className={classNames(classes.btn, {
         [classes.registrationBtn]: registration,
         [classes.logInBtn]: logInBtn,
-      })}>
+      })}
+    >
       {text}
     </button>
   );

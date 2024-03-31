@@ -1,0 +1,41 @@
+.switchContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.general {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  &:hover {
+    background-color: #6581B4;
+  }
+}
+
+.imgContainer {
+  display: flex;
+}
+
+.generalText {
+  font-size: 13px;
+
+}
+
+.phoneContainer {
+  background-color: hsl(209,31%,87%);
+  color: var(--bt-primary-color);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
+
+.oneClickContainer {
+  color: white;
+  background-color: var(--bt-primary-color);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}

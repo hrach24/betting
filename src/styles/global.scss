@@ -45,4 +45,55 @@ body {
   }
 }
 
+.globalPadding {
+  padding: 10px 7px;
+}
 
+.option {
+  width: 100%;
+  background-color: white;
+  padding: 8px 10px;
+  cursor: pointer;
+  &:not(:first-child) {
+    margin-top: 5px;
+  }
+}
+
+.optionContainer {
+  display: flex;
+  font-size: 14px;
+}
+
+.optionInfo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.optionInfoText {
+  margin-inline-start: 10px;
+}
+
+.arrowDownContainer {
+  width: 15px;
+}
+
+.arrowDownContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.registration-options:not(:first-child) {
+  margin-top: 10px;
+}
+
+.common {
+  display: flex;
+  flex-grow: 1;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 7px 10px;
+}

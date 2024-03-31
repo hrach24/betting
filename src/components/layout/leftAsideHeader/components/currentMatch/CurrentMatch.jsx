@@ -3,11 +3,9 @@ import classes from "./CurrentMatch.module.scss";
 import basketBallImg from "../../../../../assets/images/basketBall.png";
 import pcSvg from "../../../../../assets/images/pcSvg.png";
 import starIcon from "../../../../../assets/images/starSvg.png";
-
 import classNames from "classnames";
-import { currentMatch } from "../../../../../util/currentMatch";
 
-const CurrentMatch = () => {
+const CurrentMatch = ({ currentMatch }) => {
   return (
     <div className={classes.currentMatchItem}>
       {currentMatch.map((item) => {
@@ -23,12 +21,20 @@ const CurrentMatch = () => {
                 </div>
               </div>
               <div className={classes.categoryIcons}>
-                <div className={classes.iconContainer}>
-                  <img src={pcSvg} alt="" />
-                </div>
-                <div className={classes.iconContainer}>
-                  <img src={starIcon} alt="" />
-                </div>
+                {/*<div className={classes.iconContainer}>*/}
+                {/*  {item.computerIcon ? <img src={pcSvg} alt="" /> : null}*/}
+                {/*</div>*/}
+
+                {item.computerIcon ? (
+                  <div className={classes.iconContainer}>
+                    {item.computerIcon ? <img src={pcSvg} alt="" /> : null}
+                  </div>
+                ) : null}
+                {item.starIcon ? (
+                  <div className={classes.iconContainer}>
+                    <img src={starIcon} alt="" />
+                  </div>
+                ) : null}
               </div>
             </div>
             <div className={classes.teamsAndScores}>

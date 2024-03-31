@@ -1,0 +1,21 @@
+.switchContainer {
+  display: flex;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.active {
+  background-color: hsl(208, 62%, 40%);
+}
+
+.deActivated {
+  background-color: hsl(208, 61%, 32%);
+  &:hover {
+    background-color: hsl(208,61%,36%);
+  }
+  color: #b1b1b1;
+}
+
+.commonText {
+  font-size: 11px;
+}

@@ -1,0 +1,29 @@
+.promoCodeInput {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 14px;
+  &::placeholder {
+    color: hsl(208,62%,40%);
+  }
+  &:not(:first-child) {
+    margin-top: 5px;
+  }
+}
+
+.regSubmitBtn {
+  margin-top: 10px;
+  width: 100%;
+  background-color: var(--bt-registrationBtn-color);
+  border: 1px solid var(--bt-registrationBtn-color);
+  color: white;
+  padding: 5px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  &:hover {
+    background-color: var(--bt-registerBtn-hover-color);
+    border: 1px solid var(--bt-registerBtn-hover-color);
+  }
+}

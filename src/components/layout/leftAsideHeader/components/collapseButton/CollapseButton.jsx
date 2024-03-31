@@ -6,7 +6,8 @@ const CollapseButton = ({ updateTheProp, showLeftBar }) => {
     <div className={classes.collapseContainer}>
       <button
         className={classes.collapseButton}
-        onClick={() => updateTheProp((prevState) => !prevState)}>
+        onClick={() => updateTheProp((prevState) => !prevState)}
+      >
         {" "}
         {!showLeftBar ? "<< Collapse block" : ">>"}{" "}
       </button>

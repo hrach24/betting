@@ -8,7 +8,8 @@ const DropDown = ({ setSportHover }) => {
     <div
       className={classNames(classes.sportDropDown)}
       onMouseEnter={() => setSportHover(true)}
-      onMouseLeave={() => setSportHover(false)}>
+      onMouseLeave={() => setSportHover(false)}
+    >
       <ul className={classNames(classes.dropDownList)}>
         <li className={classNames(classes.dropDownItem)}>
           <Link to="/" className={classes.dropDownLink}>
