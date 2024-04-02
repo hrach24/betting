@@ -1,0 +1,92 @@
+.selectedMatchContainer {
+  width: 100%;
+  background-color: white;
+  padding: 0 8px 19px 8px;
+}
+
+.liveBanner {
+  font-size: 10px;
+}
+
+.liveText {
+  background-color: #7EAC2F;
+  color: white;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 0 7px;
+}
+
+.matchInfo {
+  margin-top: 5px;
+}
+
+.matchLeagueImgContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 13px;
+  height: 13px;
+  img {
+    width: 100%;
+  }
+}
+
+.league {
+  font-size: 10px;
+  color: #276aa5;
+  margin-inline-start: 5px;
+}
+
+.matchTitle {
+  font-size: 12px;
+  color: #224F7C;
+  font-weight: bold;
+  margin-top: 5px;
+  display: flex;
+}
+
+.matchTitleLink {
+  color: #224F7C;
+}
+
+.closeContainer {
+  width: 19px;
+  height: 19px;
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.leagueContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreCount {
+  margin-inline-start: 5px;
+  color: var(--bt-registrationBtn-color)
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.firstNumber {
+  font-size: 11px;
+  color: #224F7C;
+  font-weight: bold;
+  padding:  4px 17px;
+  background-color: #D4DEE8;
+  border-radius: 4px;
+}
+
+.secondNumber {
+  font-size: 11px;
+  color: #276aa5;
+  margin-inline-start: 5px;
+}

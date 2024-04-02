@@ -1,0 +1,31 @@
+.selectedBet {
+  display: flex;
+  flex-direction: column;
+  background-color: #E9EEF2;
+  padding: 5px 10px;
+}
+
+.settingIconContainer {
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  background-color: #DBE4EB;
+  border-radius: 3px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.yourBetsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.yourBetText {
+  color: #276AA5;
+  font-size: 11px;
+}

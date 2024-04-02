@@ -52,5 +52,6 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.34.1",
     "prettier": "^3.2.5"
-  }
+  },
+  "license": "ISC"
 }
