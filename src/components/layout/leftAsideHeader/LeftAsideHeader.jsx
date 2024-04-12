@@ -10,9 +10,14 @@ const LeftAsideFooter = () => {
 
   return (
     <div
-      className={classNames(classes.leftAsideFooter, "aside", "globalPadding", {
-        [classes.minimizeLeftBar]: showLeftBar,
-      })}
+      className={classNames(
+        classes.leftAsideFooter,
+        "aside",
+        !showLeftBar && "globalPadding",
+        {
+          [classes.minimizeLeftBar]: showLeftBar,
+        },
+      )}
     >
       <CollapseButton updateTheProp={updateTheProp} showLeftBar={showLeftBar} />
       {showLeftBar ? (

@@ -97,3 +97,64 @@ body {
   cursor: pointer;
   padding: 7px 10px;
 }
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #c2baba;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.swiper-button-prev {
+  height: 120px;
+  width: 32px;
+  left: 0;
+  top: 72px;
+  background-color: hsl(209,31%,87%, 0.3);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-weight: 800;
+  color: hsl(209,31%,87%);
+  &:after {
+    font-size: 20px;
+  }
+  &:hover {
+    background-color: hsl(209,31%,87%, 0.5);
+    color: white;
+  }
+}
+
+.swiper-button-next {
+  height: 120px;
+  width: 32px;
+  right: 0;
+  top: 72px;
+  background-color: hsl(209,31%,87%, 0.3);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-weight: 800;
+  color: hsl(209,31%,87%);
+  &:after {
+    font-size: 20px;
+  }
+  &:hover {
+    background-color: hsl(209,31%,87%, 0.5);
+    color: white;
+  }
+}
+
+.swiper-scrollbar-drag {
+  background-color: #617B96;
+}
+
+.swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+  left: 0;
+}
+
+.swiper-slide{
+  width: 190px;
+  height: 120px;
+}

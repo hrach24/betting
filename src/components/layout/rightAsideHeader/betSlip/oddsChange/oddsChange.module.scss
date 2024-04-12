@@ -1,0 +1,25 @@
+.oddsChangeContainer {
+  padding: 0 0 8px 0;
+  border-bottom: 1px solid #cfd6db;
+}
+
+.oddChangeText {
+  font-size: 12px;
+  color: #276AA5;
+}
+
+.oddChangeInputs {
+  margin-top: 4px;
+  select {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    color: #276AA5;
+    font-size: 14px;
+    border-radius: 3px;
+    &:not(:first-child) {
+      margin-top: 6px;
+      opacity: .7;
+    }
+  }
+}

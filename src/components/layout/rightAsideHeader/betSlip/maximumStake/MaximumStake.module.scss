@@ -1,0 +1,18 @@
+.maximumStake {
+  display: flex;
+  padding: 5px 0;
+  justify-content: space-between;
+  color: #276AA5;
+}
+
+.maximumStake {
+  font-size: 12px;
+}
+
+.stakeNumber {
+  text-decoration: underline;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+  }
+}
