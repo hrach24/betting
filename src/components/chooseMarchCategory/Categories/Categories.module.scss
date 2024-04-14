@@ -1,0 +1,27 @@
+.categoriesList {
+  display: flex;
+  padding: 0 0 0 10px;
+  flex-grow: 1;
+}
+
+.categoryItem {
+  display: flex;
+}
+
+.categoryItemLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 13px;
+  color: #d9d0d0;
+  &:hover {
+    color: white;
+  }
+}
+
+.active {
+  color: white;
+  font-size: 13px;
+  border-bottom: 2px solid #7EAC2F;
+}

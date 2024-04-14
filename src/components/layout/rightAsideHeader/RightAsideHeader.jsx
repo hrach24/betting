@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import classes from "./RightAsideHeader.module.scss";
 import classNames from "classnames";
 import CollapseButton from "../leftAsideHeader/components/collapseButton/CollapseButton";
-// import Registration from "./registration/Registration";
 import BetSlip from "./betSlip/BetSlip";
 const RightAsideHeader = () => {
   const [showLeftBar, updateTheProp] = useState(false);
