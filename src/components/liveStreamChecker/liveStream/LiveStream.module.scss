@@ -1,0 +1,57 @@
+.liveStreamContainer {
+  max-width: 163px;
+  cursor: pointer;
+  border-right: 1px solid hsl(208deg 29.9% 23.03%)
+}
+
+.liveToggle {
+  width: 34px;
+  height: 16px;
+  background-color: #D4DEE8;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #B0C3D4;
+  }
+}
+
+.button {
+  width: 16px;
+  height: 16px;
+  background-color: #648BAD;
+  border-radius: 50%;
+}
+
+.liveStreamText {
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+  padding-left: 6px;
+}
+
+.livePadding {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clicked {
+  background-color: #669340;
+  animation-name: clicked;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.greenBackground {
+  background-color: #93B380;
+  &:hover {
+    background-color: #93B380;
+  }
+}
+
+@keyframes clicked {
+  100% {
+    transform: translateX(20px);
+  }
+}
