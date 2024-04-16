@@ -22,12 +22,19 @@
 
 .liveStreamLink {
   display: flex;
+  align-items: center;
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   &:hover {
     border-bottom: 2px solid #7EAC2F;
+    .liveItemText {
+      color: white;
+    }
+    .svgIcon {
+      fill: white;
+    }
   }
 }
 
@@ -36,12 +43,149 @@
   align-items: center;
   padding-left: 6px;
   color: #c9bebe;
-  &:hover {
-    color: white;
-  }
 }
 
 .imgBlock {
   display: flex;
   align-items: center;
+}
+
+.svgIcon {
+  fill: #B7C1D2;
+  width: 16px;
+  height: 16px;
+}
+
+.svgIconLines {
+  width: 18px;
+  height: 18px;
+  stroke: #B7C1D2;
+}
+
+.iconDown {
+  width: 9px;
+  height: 9px;
+  fill: #B7C1D2;
+  margin-left: 3px;
+}
+
+.liveStreamItemLines {
+  align-items: center;
+  cursor: pointer;
+}
+
+.linesIconDown {
+  border-radius: 3px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background-color: white;
+    .iconDown {
+      fill: #4466A4;
+    }
+    .svgIconLines {
+      stroke: #4466A4;
+    }
+  }
+}
+
+.dropDown {
+  width: 222px;
+  position: absolute;
+  z-index: 1;
+  transform: translateY(55%);
+  background-color: white;
+  border-radius: 3px;
+}
+
+.dropDownListSearchContainer {
+  display: flex;
+  padding: 5px;
+}
+
+.inputSearch {
+  background-color: #F4F8FC;
+  border: none;
+  width: 100%;
+  padding: 5px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  &::placeholder {
+    color: #8198BB;
+    font-size: 13px;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.searchButton {
+  background-color: #F4F8FC;
+  display: flex;
+  align-items: center;
+  width: 19px;
+  padding-right: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: none;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.searchSvg {
+  width: 12px;
+  height: 12px;
+}
+
+.dropDownItemsContainer {
+  border-top: 1px solid grey;
+
+}
+
+.dropDownItemsContainerText {
+  background-color: #EAEDF2;
+  font-size: 11px;
+  padding: 10px;
+}
+
+.dropDownListItemLink {
+  font-size: 15px;
+}
+
+.dropDownListItemSvg {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  fill: #4466A3;
+}
+
+.dropDownListItemLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4466A3;
+  padding: 7px;
+  width: 100%;
+  &:hover {
+    background-color: #D7DDE8;
+  }
+}
+
+.dropDownListItem {
+  border-top: 1px solid #c5b5b5;
+  display: flex;
+
+}
+
+.footballDropDown {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  transform: translateX(-100%);
+  left: -1px;
 }
