@@ -15,7 +15,7 @@ const SelecedBet = () => {
       <div className={classes.yourBetsContainer}>
         <div className={classes.yourBetText}>YOUR BETS</div>
         <div className={classes.settingIconContainer}>
-          <img src={settingsImg} alt="" />
+          <img src={settingsImg} alt="settings" />
         </div>
       </div>
       <SelectedMatch />

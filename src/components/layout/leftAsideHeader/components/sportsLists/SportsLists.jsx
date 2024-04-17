@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import classes from "./SportsLists.module.scss";
 import blackArrowDownImg from "../../../../../assets/images/blackArrowDown.png";
 import SportLeague from "../sportsLeague/SportLeague";
+import classNames from "classnames";
 const SportsLists = ({ title, count, img, leagues }) => {
   const [showLeague, updateLeague] = useState(false);
 
@@ -16,14 +17,12 @@ const SportsLists = ({ title, count, img, leagues }) => {
           <span className={classes.sportItemCount}>{count}</span>
         </div>
         <div
-          className={classes.dropDownButton}
+          className={classNames(classes.dropDownButton, {
+            [classes.blackArrowUp]: showLeague,
+          })}
           onClick={() => updateLeague(!showLeague)}
         >
-          {!showLeague ? (
-            <img src={blackArrowDownImg} alt="" />
-          ) : (
-            <img src={blackArrowDownImg} className={classes.blackArrowUp} />
-          )}
+          <img alt={"arrow"} src={blackArrowDownImg} />
         </div>
       </div>
       {showLeague ? <SportLeague leagues={leagues} /> : null}

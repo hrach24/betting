@@ -6,9 +6,9 @@ const SportLeague = ({ leagues }) => {
   return (
     <div className={classes.leagues}>
       <ul className={classes.leaguesList}>
-        {leagues.map((item) => {
-          return <SportLeagueItem key={item} item={item} />;
-        })}
+        {leagues.map((item) => (
+          <SportLeagueItem key={item} item={item} />
+        ))}
       </ul>
     </div>
   );

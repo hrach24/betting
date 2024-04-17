@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,14 +8,10 @@ body {
   overflow-x: hidden;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-  &::after, &::before {
-    box-sizing: border-box;
-  }
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
 .container {
@@ -39,6 +36,7 @@ body {
     height: 10px;
     background-color: var(--bt--body--color);
   }
+
   &::-webkit-scrollbar-thumb {
     background-color: #617B96;
     border-radius: 10px;
@@ -54,6 +52,7 @@ body {
   background-color: white;
   padding: 8px 10px;
   cursor: pointer;
+
   &:not(:first-child) {
     margin-top: 5px;
   }
@@ -113,16 +112,18 @@ body {
   width: 32px;
   left: 0;
   top: 72px;
-  background-color: hsl(209,31%,87%, 0.3);
+  background-color: hsl(209, 31%, 87%, 0.3);
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   font-weight: 800;
-  color: hsl(209,31%,87%);
+  color: hsl(209, 31%, 87%);
+
   &:after {
     font-size: 20px;
   }
+
   &:hover {
-    background-color: hsl(209,31%,87%, 0.5);
+    background-color: hsl(209, 31%, 87%, 0.5);
     color: white;
   }
 }
@@ -132,16 +133,18 @@ body {
   width: 32px;
   right: 0;
   top: 72px;
-  background-color: hsl(209,31%,87%, 0.3);
+  background-color: hsl(209, 31%, 87%, 0.3);
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   font-weight: 800;
-  color: hsl(209,31%,87%);
+  color: hsl(209, 31%, 87%);
+
   &:after {
     font-size: 20px;
   }
+
   &:hover {
-    background-color: hsl(209,31%,87%, 0.5);
+    background-color: hsl(209, 31%, 87%, 0.5);
     color: white;
   }
 }

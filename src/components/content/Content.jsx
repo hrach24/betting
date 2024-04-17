@@ -5,6 +5,7 @@ import Slider from "../slider/Slider";
 import CasinoGameSliders from "../casinoGameSliders/CasinoGameSliders";
 import ChooseMatchCategory from "../chooseMarchCategory/ChooseMatchCategory";
 import LiveStreamChecker from "../liveStreamChecker/LiveStreamChecker";
+import LiveGames from "../liveGames/LiveGames";
 const Content = () => {
   return (
     <div className={classNames(classes.content, "globalPadding")}>
@@ -12,11 +13,7 @@ const Content = () => {
       <CasinoGameSliders />
       <ChooseMatchCategory />
       <LiveStreamChecker />
-      {Array.from(Array(20), (e, i) => (
-        <div key={e} style={{ height: "100px", marginTop: "10px" }}>
-          sdasd {i}
-        </div>
-      ))}
+      <LiveGames />
     </div>
   );
 };

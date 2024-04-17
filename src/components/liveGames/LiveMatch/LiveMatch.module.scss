@@ -1,0 +1,109 @@
+//.liveMatchContainer {
+//  display: flex;
+//  padding: 5px 5px 5px 15px;
+//  background-color: white;
+//}
+//
+//.icons {
+//  display: flex;
+//  flex-direction: column;
+//  padding-right: 10px;
+//  border-right: 1px solid #E9EEF2;
+//}
+//
+//.svgIcon {
+//  width: 17px;
+//  height: 17px;
+//  fill: #B1C4D4;
+//  &:last-child {
+//    margin-top: 5px;
+//  }
+//}
+//
+//.star {
+//  fill: #7EAC2F;
+//}
+//
+//.teams {
+//  display: flex;
+//  justify-content: space-between;
+//  flex-grow: 1;
+//}
+//
+//.match {
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: space-between;
+//  margin-inline-start: 10px;
+//}
+//
+//.teamImgContainer {
+//  width: 16px;
+//  height: 16px;
+//  img {
+//    width: 100%;
+//    height: 100%;
+//    object-fit: contain;
+//  }
+//}
+//
+//.team {
+//  display: flex;
+//}
+//
+//.teamName {
+//  font-size: 14px;
+//  margin-inline-start: 10px;
+//}
+//
+//.numbers {
+//  display: flex;
+//  padding: 10px 4px;
+//  flex-grow: 1;
+//}
+//
+//.secondNumber {
+//  display: flex;
+//  flex-grow: 1;
+//}
+//
+//.matchScores {
+//  display: flex;
+//}
+//
+//.score {
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: space-between;
+//  font-size: 12px;
+//}
+.leagueNameAndSportSvgLastNumbers {
+  display: flex;
+}
+
+.liveMatchItem {
+  display: flex;
+  flex-grow: 1;
+  height: 8px;
+  padding: 5px 5px 5px 15px;
+}
+
+.itemNumber {
+  width: 73px;
+  padding: 10px;
+}
+
+.numberButton {
+  width: 59px;
+  height: 10px;
+  background-color: red;
+  &:not(:first-child) {
+    margin-inline-start: 10px;
+  }
+}
+
+.liveMatchItemNumber {
+  padding: 4px 10px;
+  display: flex;
+
+}

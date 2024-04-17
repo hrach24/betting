@@ -6,6 +6,7 @@ import classNames from "classnames";
 const SportLeagueItem = ({ item }) => {
   console.log(item);
   const [showCurrentMatch, updateCurrentMatch] = useState(false);
+
   return (
     <li key={item.title} className={classes.leagueListItem}>
       <div className={classes.leagueItemContainer}>
