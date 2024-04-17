@@ -78,6 +78,12 @@ p {
 }
 
 .liveGameLastNumberContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1D4268;
+  font-weight: bold;
+  font-size: 12px;
   width: 73px;
   padding: 5px;
 }
@@ -109,4 +115,5 @@ p {
 
 .arrowDownContainer {
   padding-top: 8px;
+  cursor: pointer;
 }

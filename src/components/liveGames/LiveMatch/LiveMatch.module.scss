@@ -1,82 +1,86 @@
-//.liveMatchContainer {
-//  display: flex;
-//  padding: 5px 5px 5px 15px;
-//  background-color: white;
-//}
-//
-//.icons {
-//  display: flex;
-//  flex-direction: column;
-//  padding-right: 10px;
-//  border-right: 1px solid #E9EEF2;
-//}
-//
-//.svgIcon {
-//  width: 17px;
-//  height: 17px;
-//  fill: #B1C4D4;
-//  &:last-child {
-//    margin-top: 5px;
-//  }
-//}
-//
-//.star {
-//  fill: #7EAC2F;
-//}
-//
-//.teams {
-//  display: flex;
-//  justify-content: space-between;
-//  flex-grow: 1;
-//}
-//
-//.match {
-//  display: flex;
-//  flex-direction: column;
-//  justify-content: space-between;
-//  margin-inline-start: 10px;
-//}
-//
-//.teamImgContainer {
-//  width: 16px;
-//  height: 16px;
-//  img {
-//    width: 100%;
-//    height: 100%;
-//    object-fit: contain;
-//  }
-//}
-//
-//.team {
-//  display: flex;
-//}
-//
-//.teamName {
-//  font-size: 14px;
-//  margin-inline-start: 10px;
-//}
-//
-//.numbers {
-//  display: flex;
-//  padding: 10px 4px;
-//  flex-grow: 1;
-//}
-//
-//.secondNumber {
-//  display: flex;
-//  flex-grow: 1;
-//}
-//
-//.matchScores {
-//  display: flex;
-//}
-//
-//.score {
-//  display: flex;
-//  flex-direction: column;
-//  justify-content: space-between;
-//  font-size: 12px;
-//}
+.liveMatchContainer {
+  display: flex;
+  padding: 5px 5px 5px 15px;
+  background-color: white;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  border-right: 1px solid #E9EEF2;
+}
+
+.svgIcon {
+  width: 17px;
+  height: 17px;
+  fill: #B1C4D4;
+  &:last-child {
+    margin-top: 5px;
+  }
+}
+
+.star {
+  fill: #7EAC2F;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 5px 0;
+}
+
+.match {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-inline-start: 10px;
+}
+
+.teamImgContainer {
+  width: 16px;
+  height: 16px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.team {
+  display: flex;
+}
+
+.teamName {
+  font-size: 14px;
+  margin-inline-start: 10px;
+}
+
+.numbers {
+  display: flex;
+  padding: 10px 4px;
+  flex-grow: 1;
+}
+
+.secondNumber {
+  display: flex;
+  flex-grow: 1;
+}
+
+.matchScores {
+  display: flex;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 12px;
+  &:first-child {
+    font-weight: bold;
+  }
+}
 .leagueNameAndSportSvgLastNumbers {
   display: flex;
 }
@@ -88,22 +92,51 @@
   padding: 5px 5px 5px 15px;
 }
 
-.itemNumber {
+.itemNumberContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 73px;
   padding: 10px;
-}
-
-.numberButton {
-  width: 59px;
-  height: 10px;
-  background-color: red;
-  &:not(:first-child) {
-    margin-inline-start: 10px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover {
+    background-color: #4466A4;
+    .itemNumber {
+      color: white;
+    }
   }
 }
 
-.liveMatchItemNumber {
-  padding: 4px 10px;
-  display: flex;
 
+.liveMatchItemNumber {
+  padding: 4px 9px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #EAEDF2;
+  background-color: white;
+}
+
+.itemNumber {
+  font-size: 12px;
+  color: #1D82BF;
+  text-decoration: underline;
+}
+
+.matchInfo {
+  width: 100%;
+  height: 20px;
+  background-color: red;
+  margin-top: 2px;
+}
+
+.wrapperContainer {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.teamsAndIconContainer {
+  display: flex;
 }
