@@ -6,12 +6,30 @@
     padding: 9px;
     background-color: #E9EEF2;
     border-radius: 3px;
+    position: relative;
+    cursor: pointer;
     &:not(:first-child) {
       margin-inline-start: 10px;
+    }
+    &:hover {
+        background-color: #B8DEFF;
     }
 }
 
 .markUpNumber {
-    font-size: 12px;
-    color: #1D82BF;
+  font-size: 12px;
+  color: #1D82BF;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-top: 7px solid red;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 6px;
 }

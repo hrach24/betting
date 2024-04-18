@@ -44,15 +44,35 @@ const LiveMatch = () => {
             </div>
           </div>
         </div>
-        <div className={classes.matchInfo}></div>
+        <div className={classes.matchInfo}>
+          <div className={classes.svgIcons}>
+            <p className={classes.setNumber}>1st Set</p>
+            <svg className={classNames(classes.matchInfoIcon)}>
+              <use xlinkHref="#youtube-168"></use>
+            </svg>
+            <svg className={classNames(classes.matchInfoIcon)}>
+              <use xlinkHref="#football-field"></use>
+            </svg>
+            <svg className={classNames(classes.matchInfoIcon)}>
+              <use xlinkHref="#diagram-bar-3-svgrepo-com"></use>
+            </svg>
+            <svg className={classNames(classes.matchInfoIcon)}>
+              <use xlinkHref="#diagram"></use>
+            </svg>
+            <svg className={classNames(classes.matchInfoIcon)}>
+              <use xlinkHref="#winner"></use>
+            </svg>
+          </div>
+
+          <div className={classes.dropDown}>
+            <svg className={classNames(classes.arrowDown)}>
+              <use xlinkHref="#arrow-down-338"></use>
+            </svg>
+          </div>
+        </div>
       </div>
 
       <div className={classes.leagueNameAndSportSvgLastNumbers}>
-        <div className={classes.liveMatchItemNumber}>
-          <MarkUp />
-          <MarkUp />
-          <MarkUp />
-        </div>
         <div className={classes.liveMatchItemNumber}>
           <MarkUp />
           <MarkUp />

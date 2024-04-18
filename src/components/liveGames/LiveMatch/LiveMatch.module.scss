@@ -1,7 +1,8 @@
 .liveMatchContainer {
   display: flex;
-  padding: 5px 5px 5px 15px;
+  padding: 0 0 0 15px;
   background-color: white;
+  border-bottom: 1px solid #E9EEF2;
 }
 
 .icons {
@@ -28,7 +29,9 @@
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
-  padding: 5px 0;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 .match {
@@ -79,6 +82,13 @@
   font-size: 12px;
   &:first-child {
     font-weight: bold;
+
+  }
+  &:not(:first-child) {
+    margin-left: 10px;
+    //padding: 0 4px;
+    padding-left: 6px;
+    border-left: 1px solid #E9EEF2;
   }
 }
 .leagueNameAndSportSvgLastNumbers {
@@ -101,6 +111,7 @@
   background-color: white;
   cursor: pointer;
   transition: 0.2s;
+  border-left: 1px solid #E9EEF2;
   &:hover {
     background-color: #4466A4;
     .itemNumber {
@@ -125,9 +136,10 @@
 }
 
 .matchInfo {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   height: 20px;
-  background-color: red;
   margin-top: 2px;
 }
 
@@ -135,8 +147,50 @@
   display: flex;
   flex-grow: 1;
   flex-direction: column;
+  padding: 5px 5px 0 0;
 }
 
 .teamsAndIconContainer {
   display: flex;
+}
+
+.matchInfoIcon {
+  width: 12px;
+  height: 12px;
+  fill: #374868;
+  stroke: #374868;
+  cursor: pointer;
+  &:not(:first-child) {
+    margin-left: 5px;
+  }
+}
+
+.setNumber {
+  font-size: 11px;
+  color: #1D4268;
+}
+
+.arrowDown {
+  width: 9px;
+  height: 9px;
+}
+
+.dropDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  cursor: pointer;
+  &:hover {
+    background-color: #276AA5;
+    .arrowDown {
+      fill: white
+    }
+  }
+
+}
+
+.svgIcons {
+  display: flex;
+  align-items: center;
 }
