@@ -1,66 +1,58 @@
 import React from "react";
 import classes from "./LiveGameLeague.module.scss";
-import japanImg from "../../../assets/images/japan.png";
 import classNames from "classnames";
 
-const LiveGameLeague = () => {
+const LiveGameLeague = ({ data }) => {
   return (
-    <div className={classes.liveGameLeague}>
-      <div className={classes.leagueNameAndSportSvg}>
-        <div className={classes.svgContainer}>
-          <svg className={classes.svgIcon}>
-            <use xlinkHref="#ball-football"></use>
-          </svg>
-        </div>
-        <div className={classes.leagueName}>
-          <div className={classes.imgContainer}>
-            <img src={japanImg} alt="" />
+    <>
+      {data.map((item) => {
+        return (
+          <div className={classes.liveGameLeague} key={item.id}>
+            <div className={classes.leagueNameAndSportSvg}>
+              <div className={classes.svgContainer}>
+                <svg className={classes.svgIcon}>
+                  <use xlinkHref={item.leagueSvgIcon}></use>
+                </svg>
+              </div>
+              <div className={classes.leagueName}>
+                <div className={classes.imgContainer}>
+                  <img src={item.leagueImg} alt="" />
+                </div>
+                <span className={classes.leagueText}>{item.leagueName}</span>
+              </div>
+            </div>
+            {item.numbers.map((numbers) => {
+              return (
+                <div className={classes.liveGameNumberS} key={item.id}>
+                  <div className={classes.liveGameNumber}>
+                    <span>{numbers.firstNumber}</span>
+                  </div>
+                  <div
+                    className={classNames(
+                      classes.liveGameNumber,
+                      classes.arrowDownContainer,
+                    )}
+                  >
+                    <div className={classes.liveGameText}>
+                      {numbers.secondNumber}
+                    </div>
+                    <svg className={classes.arrowDown}>
+                      <use xlinkHref="#arrow-down-338"></use>
+                    </svg>
+                  </div>
+                  <div className={classes.liveGameNumber}>
+                    <span>{numbers.thirdNumber}</span>
+                  </div>
+                </div>
+              );
+            })}
+            <div className={classes.liveGameLastNumberContainer}>
+              <p>{item.lastNumber}</p>
+            </div>
           </div>
-          <span className={classes.leagueText}>Japan. Nabisco Cup</span>
-        </div>
-      </div>
-      <div className={classes.liveGameNumberS}>
-        <div className={classes.liveGameNumber}>
-          <span>1</span>
-        </div>
-        <div
-          className={classNames(
-            classes.liveGameNumber,
-            classes.arrowDownContainer,
-          )}
-        >
-          <div className={classes.liveGameText}>X</div>
-          <svg className={classes.arrowDown}>
-            <use xlinkHref="#arrow-down-338"></use>
-          </svg>
-        </div>
-        <div className={classes.liveGameNumber}>
-          <span>1</span>
-        </div>
-      </div>
-      <div className={classes.liveGameNumberS}>
-        <div className={classes.liveGameNumber}>
-          <span>1</span>
-        </div>
-        <div
-          className={classNames(
-            classes.liveGameNumber,
-            classes.arrowDownContainer,
-          )}
-        >
-          <div className={classes.liveGameText}>X</div>
-          <svg className={classes.arrowDown}>
-            <use xlinkHref="#arrow-down-338"></use>
-          </svg>
-        </div>
-        <div className={classes.liveGameNumber}>
-          <span>1</span>
-        </div>
-      </div>
-      <div className={classes.liveGameLastNumberContainer}>
-        <p>+5</p>
-      </div>
-    </div>
+        );
+      })}
+    </>
   );
 };
 
