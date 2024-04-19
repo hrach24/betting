@@ -12,16 +12,15 @@ const LiveMatch = ({ data }) => {
             <div className={classes.wrapperContainer}>
               <div className={classes.teamsAndIconContainer}>
                 <div className={classes.icons}>
-                  <div className={classes.currentIcon}>
-                    <svg className={classes.svgIcon}>
-                      <use xlinkHref="#pin"></use>
-                    </svg>
-                  </div>
-                  <div className={classes.currentIcon}>
-                    <svg className={classNames(classes.svgIcon, classes.star)}>
-                      <use xlinkHref="#star-sharp"></use>
-                    </svg>
-                  </div>
+                  {item.leftIcons.map((icon) => {
+                    return (
+                      <div className={classes.currentIcon} key={icon.id}>
+                        <svg className={classes.svgIcon}>
+                          <use xlinkHref={icon.svgIcon}></use>
+                        </svg>
+                      </div>
+                    );
+                  })}
                 </div>
                 <div className={classes.teams}>
                   <div className={classes.match}>
@@ -61,23 +60,17 @@ const LiveMatch = ({ data }) => {
               <div className={classes.matchInfo}>
                 <div className={classes.svgIcons}>
                   <p className={classes.setNumber}>1st Set</p>
-                  <svg className={classNames(classes.matchInfoIcon)}>
-                    <use xlinkHref="#youtube-168"></use>
-                  </svg>
-                  <svg className={classNames(classes.matchInfoIcon)}>
-                    <use xlinkHref="#football-field"></use>
-                  </svg>
-                  <svg className={classNames(classes.matchInfoIcon)}>
-                    <use xlinkHref="#diagram-bar-3-svgrepo-com"></use>
-                  </svg>
-                  <svg className={classNames(classes.matchInfoIcon)}>
-                    <use xlinkHref="#diagram"></use>
-                  </svg>
-                  <svg className={classNames(classes.matchInfoIcon)}>
-                    <use xlinkHref="#winner"></use>
-                  </svg>
+                  {item.bottomIcons.map((bottomIcon) => {
+                    return (
+                      <svg
+                        className={classNames(classes.matchInfoIcon)}
+                        key={bottomIcon.id}
+                      >
+                        <use xlinkHref={bottomIcon.svgIcon}></use>
+                      </svg>
+                    );
+                  })}
                 </div>
-
                 <div className={classes.dropDown}>
                   <svg className={classNames(classes.arrowDown)}>
                     <use xlinkHref="#arrow-down-338"></use>
@@ -87,18 +80,17 @@ const LiveMatch = ({ data }) => {
             </div>
 
             <div className={classes.leagueNameAndSportSvgLastNumbers}>
-              <div className={classes.liveMatchItemNumber}>
-                <MarkUp />
-                <MarkUp />
-                <MarkUp />
-              </div>
-              <div className={classes.liveMatchItemNumber}>
-                <MarkUp />
-                <MarkUp />
-                <MarkUp />
-              </div>
+              {item.markUp.map((item) => {
+                return (
+                  <div className={classes.liveMatchItemNumber} key={item.id}>
+                    {item.map((markUpItem) => {
+                      return <MarkUp data={markUpItem} key={item.id} />;
+                    })}
+                  </div>
+                );
+              })}
               <div className={classes.itemNumberContainer}>
-                <p className={classes.itemNumber}>+511</p>
+                <p className={classes.itemNumber}>{item.teamLastNumber}</p>
               </div>
             </div>
           </div>

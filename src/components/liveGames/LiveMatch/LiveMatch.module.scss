@@ -12,10 +12,17 @@
   border-right: 1px solid #E9EEF2;
 }
 
+.currentIcon{
+  &:nth-child(2) .svgIcon {
+    fill: #7EAC2F;
+  }
+}
+
 .svgIcon {
   width: 17px;
   height: 17px;
   fill: #B1C4D4;
+
   &:last-child {
     margin-top: 5px;
   }
@@ -24,7 +31,6 @@
 .star {
   width: 17px;
   height: 17px;
-  fill: #7EAC2F;
 }
 
 .teams {

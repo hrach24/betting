@@ -10,7 +10,7 @@ const LiveGames = () => {
         return (
           <>
             <LiveGameLeague key={item.id} data={item.league} />
-            <LiveMatch key={item.id} data={item.teams} icons={item.leftIcons} />
+            <LiveMatch key={item.id} data={item.teams} />
           </>
         );
       })}
