@@ -1,0 +1,20 @@
+.currentIcon{
+  &:nth-child(2) .svgIcon {
+    fill: #7EAC2F;
+  }
+}
+
+.svgIcon {
+  width: 17px;
+  height: 17px;
+  fill: #B1C4D4;
+
+  &:last-child {
+    margin-top: 5px;
+  }
+}
+
+.svgIcons {
+  display: flex;
+  align-items: center;
+}

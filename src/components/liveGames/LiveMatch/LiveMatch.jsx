@@ -2,6 +2,9 @@ import React from "react";
 import classes from "./LiveMatch.module.scss";
 import MarkUp from "./markup/MarkUp";
 import classNames from "classnames";
+import LeftIcons from "./leftIcons/LeftIcons";
+import MatchScores from "./matchScores/MatchScores";
+import BottomIcons from "./buttomIcons/BottomIcons";
 const LiveMatch = ({ data }) => {
   return (
     <>
@@ -13,13 +16,7 @@ const LiveMatch = ({ data }) => {
               <div className={classes.teamsAndIconContainer}>
                 <div className={classes.icons}>
                   {item.leftIcons.map((icon) => {
-                    return (
-                      <div className={classes.currentIcon} key={icon.id}>
-                        <svg className={classes.svgIcon}>
-                          <use xlinkHref={icon.svgIcon}></use>
-                        </svg>
-                      </div>
-                    );
+                    return <LeftIcons icon={icon} key={icon.id} />;
                   })}
                 </div>
                 <div className={classes.teams}>
@@ -47,12 +44,7 @@ const LiveMatch = ({ data }) => {
                   </div>
                   <div className={classes.matchScores}>
                     {item.scores.map((score) => {
-                      return (
-                        <div className={classes.score} key={score.id}>
-                          <span>{score.firstTeamScore}</span>
-                          <span>{score.secondTeamScore}</span>
-                        </div>
-                      );
+                      return <MatchScores score={score} key={score.id} />;
                     })}
                   </div>
                 </div>
@@ -62,12 +54,10 @@ const LiveMatch = ({ data }) => {
                   <p className={classes.setNumber}>1st Set</p>
                   {item.bottomIcons.map((bottomIcon) => {
                     return (
-                      <svg
-                        className={classNames(classes.matchInfoIcon)}
+                      <BottomIcons
+                        bottomIcon={bottomIcon}
                         key={bottomIcon.id}
-                      >
-                        <use xlinkHref={bottomIcon.svgIcon}></use>
-                      </svg>
+                      />
                     );
                   })}
                 </div>

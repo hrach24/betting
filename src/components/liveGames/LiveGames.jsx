@@ -4,6 +4,7 @@ import LiveGameLeague from "./liveGameLeague/LiveGameLeague";
 import LiveMatch from "./LiveMatch/LiveMatch";
 import { LIVE_GAME } from "../../util/LiveGame";
 const LiveGames = () => {
+  console.log();
   return (
     <div className={classes.liveGamesContainer}>
       {LIVE_GAME.map((item) => {

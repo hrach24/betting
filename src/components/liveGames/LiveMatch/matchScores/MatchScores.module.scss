@@ -1,0 +1,15 @@
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 12px;
+  &:first-child {
+    font-weight: bold;
+
+  }
+  &:not(:first-child) {
+    margin-left: 10px;
+    padding-left: 6px;
+    border-left: 1px solid #E9EEF2;
+  }
+}

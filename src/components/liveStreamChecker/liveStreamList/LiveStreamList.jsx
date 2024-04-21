@@ -95,7 +95,7 @@ const LiveStreamList = () => {
 
             <div className={classes.dropDownItemsContainer}>
               <div className={classes.dropDownItemsContainerText}>TOP</div>
-              <ul className={classes.dropDowmListItems}>
+              <ul className={classes.dropDownListItems}>
                 <li className={classes.dropDownListItem}>
                   {childDropDown ? (
                     <div
@@ -172,7 +172,7 @@ const LiveStreamList = () => {
               <div className={classes.dropDownItemsContainerText}>
                 CATEGORIES FROM A TO Z
               </div>
-              <ul className={classes.dropDowmListItems}>
+              <ul className={classes.dropDownListItems}>
                 <li className={classes.dropDownListItem}>
                   <Link to={"#"} className={classes.dropDownListItemLink}>
                     <svg className={classes.dropDownListItemSvg}>

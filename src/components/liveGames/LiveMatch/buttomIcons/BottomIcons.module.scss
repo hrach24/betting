@@ -1,0 +1,10 @@
+.matchInfoIcon {
+  width: 12px;
+  height: 12px;
+  fill: #374868;
+  stroke: #374868;
+  cursor: pointer;
+  &:not(:first-child) {
+    margin-left: 5px;
+  }
+}
