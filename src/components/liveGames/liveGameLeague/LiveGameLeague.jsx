@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import classes from "./LiveGameLeague.module.scss";
 import classNames from "classnames";
+import { WindowContext } from "../../../util/windowSizeChecker";
 
 const LiveGameLeague = ({ data }) => {
+  const window = useContext(WindowContext);
   return (
     <>
       {data.map((item) => {
@@ -21,7 +23,7 @@ const LiveGameLeague = ({ data }) => {
                 <span className={classes.leagueText}>{item.leagueName}</span>
               </div>
             </div>
-            {item.numbers.map((numbers) => {
+            {item.numbers.slice(0, window.count).map((numbers) => {
               return (
                 <div className={classes.liveGameNumberS} key={item.id}>
                   <div className={classes.liveGameNumber}>

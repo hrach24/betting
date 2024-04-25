@@ -8,7 +8,6 @@ import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
   const isTablet = useMediaQuery({ query: "(max-width: 1350px)" });
-
   return (
     <header className={classes.header}>
       <Link to={"/"} className={classes.logo}>

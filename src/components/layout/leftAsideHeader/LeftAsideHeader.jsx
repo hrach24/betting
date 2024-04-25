@@ -1,12 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classes from "./LeftAsideHeader.module.scss";
 import classNames from "classnames";
 import CollapseButton from "./components/collapseButton/CollapseButton";
 import LiveAndSupport from "./components/liveAndSportSection/LiveAndSupport";
 import Sports from "./components/sports/Sports";
+import { useMediaQuery } from "react-responsive";
 
 const LeftAsideFooter = () => {
   const [showLeftBar, updateTheProp] = useState(false);
+  const hideLeftBar = useMediaQuery({ query: "(max-width: 1367px)" });
+
+  useEffect(() => {
+    hideLeftBar ? updateTheProp(!showLeftBar) : updateTheProp(false);
+  }, [hideLeftBar]);
 
   return (
     <div

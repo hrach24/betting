@@ -8,7 +8,7 @@ const CasinoGameSliders = () => {
   return (
     <Swiper
       modules={[Pagination, Navigation, Scrollbar]}
-      slidesPerView={6.8}
+      slidesPerView={6}
       spaceBetween={10}
       scrollbar={{ draggable: true }}
       className={classes.casinoGameSliders}

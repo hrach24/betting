@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import classes from "./LiveMatch.module.scss";
 import MarkUp from "./markup/MarkUp";
 import classNames from "classnames";
 import LeftIcons from "./leftIcons/LeftIcons";
 import MatchScores from "./matchScores/MatchScores";
 import BottomIcons from "./buttomIcons/BottomIcons";
+import { WindowContext } from "../../../util/windowSizeChecker";
 const LiveMatch = ({ data }) => {
+  const window = useContext(WindowContext);
   return (
     <>
       {data.map((item) => {
-        console.log(item);
         return (
           <div className={classes.liveMatchContainer} key={item.id}>
             <div className={classes.wrapperContainer}>
@@ -70,7 +71,7 @@ const LiveMatch = ({ data }) => {
             </div>
 
             <div className={classes.leagueNameAndSportSvgLastNumbers}>
-              {item.markUp.map((item) => {
+              {item.markUp.slice(0, window.count).map((item) => {
                 return (
                   <div className={classes.liveMatchItemNumber} key={item.id}>
                     {item.map((markUpItem) => {

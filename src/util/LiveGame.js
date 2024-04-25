@@ -118,6 +118,52 @@ export const LIVE_GAME = [
               lockedIcon: true,
             },
           ],
+          [
+            {
+              id: 9,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
+            },
+            {
+              id: 10,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 11,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 9,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
+            },
+            {
+              id: 10,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 11,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
         ],
         bottomIcons: [
           {
@@ -232,6 +278,52 @@ export const LIVE_GAME = [
               lockedIcon: false,
             },
           ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
         ],
         bottomIcons: [
           {
@@ -282,6 +374,18 @@ export const LIVE_GAME = [
           },
           {
             id: 25,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 26,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 26,
             firstNumber: 1,
             secondNumber: "X",
             thirdNumber: 1,
@@ -380,6 +484,52 @@ export const LIVE_GAME = [
               lockedIcon: false,
             },
           ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
         ],
         bottomIcons: [
           {
@@ -442,6 +592,52 @@ export const LIVE_GAME = [
             },
             {
               id: 11,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 12,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 13,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 14,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 12,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 13,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 14,
               number: 7652,
               redFlag: false,
               greenFlag: true,
@@ -604,6 +800,52 @@ export const LIVE_GAME = [
               lockedIcon: false,
             },
           ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
         ],
         bottomIcons: [
           {
@@ -664,6 +906,18 @@ export const LIVE_GAME = [
           },
           {
             id: 51,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 49,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 49,
             firstNumber: 1,
             secondNumber: "X",
             thirdNumber: 1,
@@ -756,6 +1010,52 @@ export const LIVE_GAME = [
               lockedIcon: false,
             },
           ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
         ],
         bottomIcons: [
           {
@@ -816,6 +1116,18 @@ export const LIVE_GAME = [
           },
           {
             id: 72,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 70,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 70,
             firstNumber: 1,
             secondNumber: "X",
             thirdNumber: 1,
@@ -882,6 +1194,52 @@ export const LIVE_GAME = [
               number: 7652,
               redFlag: false,
               greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
               lockedIcon: false,
             },
           ],
@@ -1018,6 +1376,52 @@ export const LIVE_GAME = [
               lockedIcon: false,
             },
           ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 17,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
         ],
         bottomIcons: [
           {
@@ -1111,6 +1515,52 @@ export const LIVE_GAME = [
               redFlag: false,
               greenFlag: true,
               lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
+            },
+            {
+              id: 17,
+              number: 76452,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
+            },
+          ],
+          [
+            {
+              id: 15,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 16,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
+            },
+            {
+              id: 17,
+              number: 76452,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
             },
           ],
           [
