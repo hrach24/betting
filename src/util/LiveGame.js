@@ -120,21 +120,21 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 9,
+              id: 18,
               number: 7652,
               redFlag: false,
               greenFlag: false,
               lockedIcon: true,
             },
             {
-              id: 10,
+              id: 19,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 11,
+              id: 20,
               number: 7652,
               redFlag: false,
               greenFlag: true,
@@ -143,21 +143,21 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 9,
+              id: 21,
               number: 7652,
               redFlag: false,
               greenFlag: false,
               lockedIcon: true,
             },
             {
-              id: 10,
+              id: 22,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 11,
+              id: 23,
               number: 7652,
               redFlag: false,
               greenFlag: true,
@@ -166,396 +166,30 @@ export const LIVE_GAME = [
           ],
         ],
         bottomIcons: [
-          {
-            id: 18,
-            svgIcon: "#youtube-168",
-          },
-          {
-            id: 19,
-            svgIcon: "#football-field",
-          },
-          {
-            id: 21,
-            svgIcon: "#diagram",
-          },
-          {
-            id: 22,
-            svgIcon: "#winner",
-          },
-        ],
-        leftIcons: [
-          {
-            id: 5,
-            svgIcon: "#pin",
-          },
-          {
-            id: 6,
-            svgIcon: "#star-sharp",
-          },
-        ],
-      },
-      {
-        id: 7,
-        firstTeamName: "Azul Claro Numazu",
-        firstTeamLogo: azulImg,
-        secondTeamName: "Yokohama",
-        secondTeamLogo: conImg,
-        teamLastNumber: "+589",
-        scores: [
-          {
-            id: 8,
-            firstTeamScore: 1,
-            secondTeamScore: 1,
-          },
-        ],
-        markUp: [
-          [
-            {
-              id: 9,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 10,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 11,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 12,
-              number: 7652,
-              redFlag: false,
-              greenFlag: false,
-              lockedIcon: true,
-            },
-            {
-              id: 13,
-              number: 7652,
-              redFlag: false,
-              greenFlag: false,
-              lockedIcon: true,
-            },
-            {
-              id: 14,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-        ],
-        bottomIcons: [
-          {
-            id: 18,
-            svgIcon: "#youtube-168",
-          },
-          {
-            id: 19,
-            svgIcon: "#football-field",
-          },
-          {
-            id: 20,
-            svgIcon: "#diagram-bar-3-svgrepo-com",
-          },
-          {
-            id: 22,
-            svgIcon: "#winner",
-          },
-        ],
-        leftIcons: [
-          {
-            id: 5,
-            svgIcon: "#pin",
-          },
-          {
-            id: 6,
-            svgIcon: "#star-sharp",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 2,
-    league: [
-      {
-        id: 23,
-        leagueName: "Japan. Nabisco Cup",
-        leagueImg: japanImg,
-        leagueSvgIcon: "#tennis",
-        lastNumber: "+5",
-        numbers: [
           {
             id: 24,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
+            svgIcon: "#youtube-168",
           },
           {
             id: 25,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
-          },
-          {
-            id: 26,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
-          },
-          {
-            id: 26,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
-          },
-          {
-            id: 26,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
-          },
-        ],
-      },
-    ],
-    teams: [
-      {
-        id: 28,
-        firstTeamName: "Azul Claro Numazu",
-        firstTeamLogo: azulImg,
-        secondTeamName: "Yokohama",
-        secondTeamLogo: conImg,
-        teamLastNumber: "+589",
-        scores: [
-          {
-            id: 29,
-            firstTeamScore: 1,
-            secondTeamScore: 1,
-          },
-        ],
-        markUp: [
-          [
-            {
-              id: 9,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 10,
-              number: 7652,
-              redFlag: false,
-              greenFlag: false,
-              lockedIcon: true,
-            },
-            {
-              id: 11,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 12,
-              number: 7652,
-              redFlag: false,
-              greenFlag: false,
-              lockedIcon: true,
-            },
-            {
-              id: 13,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 14,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: false,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: false,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: false,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-        ],
-        bottomIcons: [
-          {
-            id: 18,
-            svgIcon: "#youtube-168",
-          },
-          {
-            id: 19,
             svgIcon: "#football-field",
           },
           {
-            id: 20,
-            svgIcon: "#diagram-bar-3-svgrepo-com",
+            id: 26,
+            svgIcon: "#diagram",
           },
           {
-            id: 21,
-            svgIcon: "#diagram",
+            id: 27,
+            svgIcon: "#winner",
           },
         ],
         leftIcons: [
           {
-            id: 5,
+            id: 28,
             svgIcon: "#pin",
           },
           {
-            id: 6,
+            id: 29,
             svgIcon: "#star-sharp",
           },
         ],
@@ -577,44 +211,21 @@ export const LIVE_GAME = [
         markUp: [
           [
             {
-              id: 9,
+              id: 32,
               number: 7652,
               redFlag: false,
               greenFlag: true,
               lockedIcon: false,
             },
             {
-              id: 10,
+              id: 33,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 11,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 12,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 13,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 14,
+              id: 34,
               number: 7652,
               redFlag: false,
               greenFlag: true,
@@ -623,21 +234,21 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 12,
+              id: 35,
               number: 7652,
-              redFlag: true,
+              redFlag: false,
               greenFlag: false,
-              lockedIcon: false,
+              lockedIcon: true,
             },
             {
-              id: 13,
+              id: 36,
               number: 7652,
-              redFlag: true,
+              redFlag: false,
               greenFlag: false,
-              lockedIcon: false,
+              lockedIcon: true,
             },
             {
-              id: 14,
+              id: 37,
               number: 7652,
               redFlag: false,
               greenFlag: true,
@@ -646,44 +257,67 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 12,
+              id: 38,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 13,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 14,
+              id: 39,
               number: 7652,
               redFlag: false,
               greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 40,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
               lockedIcon: false,
             },
           ],
           [
             {
-              id: 15,
+              id: 41,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 16,
+              id: 42,
               number: 7652,
               redFlag: false,
               greenFlag: true,
               lockedIcon: false,
             },
             {
-              id: 17,
+              id: 43,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 44,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 45,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 46,
               number: 7652,
               redFlag: true,
               greenFlag: false,
@@ -693,399 +327,29 @@ export const LIVE_GAME = [
         ],
         bottomIcons: [
           {
-            id: 18,
+            id: 47,
             svgIcon: "#youtube-168",
           },
           {
-            id: 20,
-            svgIcon: "#diagram-bar-3-svgrepo-com",
-          },
-          {
-            id: 21,
-            svgIcon: "#diagram",
-          },
-        ],
-        leftIcons: [
-          {
-            id: 5,
-            svgIcon: "#pin",
-          },
-          {
-            id: 6,
-            svgIcon: "#star-sharp",
-          },
-        ],
-      },
-      {
-        id: 32,
-        firstTeamName: "Azul Claro Numazu",
-        firstTeamLogo: azulImg,
-        secondTeamName: "Yokohama",
-        secondTeamLogo: conImg,
-        teamLastNumber: "+589",
-        scores: [
-          {
-            id: 33,
-            firstTeamScore: 1,
-            secondTeamScore: 1,
-          },
-        ],
-        markUp: [
-          [
-            {
-              id: 9,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 10,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 11,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 12,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 13,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 14,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-        ],
-        bottomIcons: [
-          {
-            id: 18,
-            svgIcon: "#youtube-168",
-          },
-          {
-            id: 19,
+            id: 48,
             svgIcon: "#football-field",
           },
           {
-            id: 20,
-            svgIcon: "#diagram-bar-3-svgrepo-com",
-          },
-          {
-            id: 21,
-            svgIcon: "#diagram",
-          },
-          {
-            id: 22,
-            svgIcon: "#winner",
-          },
-        ],
-        leftIcons: [
-          {
-            id: 5,
-            svgIcon: "#pin",
-          },
-          {
-            id: 6,
-            svgIcon: "#star-sharp",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 3,
-    league: [
-      {
-        id: 48,
-        leagueName: "Japan. Nabisco Cup",
-        leagueImg: japanImg,
-        leagueSvgIcon: "#ball-football",
-        lastNumber: "+5",
-        numbers: [
-          {
             id: 49,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
+            svgIcon: "#diagram-bar-3-svgrepo-com",
           },
           {
             id: 50,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
-          },
-          {
-            id: 51,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
-          },
-          {
-            id: 49,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
-          },
-          {
-            id: 49,
-            firstNumber: 1,
-            secondNumber: "X",
-            thirdNumber: 1,
-          },
-        ],
-      },
-    ],
-    teams: [
-      {
-        id: 53,
-        firstTeamName: "Azul Claro Numazu",
-        firstTeamLogo: azulImg,
-        secondTeamName: "Yokohama",
-        secondTeamLogo: conImg,
-        teamLastNumber: "+589",
-        scores: [
-          {
-            id: 54,
-            firstTeamScore: 1,
-            secondTeamScore: 1,
-          },
-        ],
-        markUp: [
-          [
-            {
-              id: 9,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 10,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 11,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 12,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 13,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 14,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-        ],
-        bottomIcons: [
-          {
-            id: 18,
-            svgIcon: "#youtube-168",
-          },
-          {
-            id: 19,
-            svgIcon: "#football-field",
-          },
-          {
-            id: 20,
-            svgIcon: "#diagram-bar-3-svgrepo-com",
-          },
-          {
-            id: 21,
-            svgIcon: "#diagram",
-          },
-          {
-            id: 22,
             svgIcon: "#winner",
           },
         ],
         leftIcons: [
           {
-            id: 5,
+            id: 51,
             svgIcon: "#pin",
           },
           {
-            id: 6,
+            id: 52,
             svgIcon: "#star-sharp",
           },
         ],
@@ -1093,41 +357,41 @@ export const LIVE_GAME = [
     ],
   },
   {
-    id: 4,
+    id: 53,
     league: [
       {
-        id: 69,
+        id: 54,
         leagueName: "Japan. Nabisco Cup",
         leagueImg: japanImg,
         leagueSvgIcon: "#tennis",
         lastNumber: "+5",
         numbers: [
           {
-            id: 70,
+            id: 55,
             firstNumber: 1,
             secondNumber: "X",
             thirdNumber: 1,
           },
           {
-            id: 71,
+            id: 56,
             firstNumber: 1,
             secondNumber: "X",
             thirdNumber: 1,
           },
           {
-            id: 72,
+            id: 57,
             firstNumber: 1,
             secondNumber: "X",
             thirdNumber: 1,
           },
           {
-            id: 70,
+            id: 58,
             firstNumber: 1,
             secondNumber: "X",
             thirdNumber: 1,
           },
           {
-            id: 70,
+            id: 59,
             firstNumber: 1,
             secondNumber: "X",
             thirdNumber: 1,
@@ -1137,7 +401,7 @@ export const LIVE_GAME = [
     ],
     teams: [
       {
-        id: 74,
+        id: 60,
         firstTeamName: "Azul Claro Numazu",
         firstTeamLogo: azulImg,
         secondTeamName: "Yokohama",
@@ -1145,7 +409,7 @@ export const LIVE_GAME = [
         teamLastNumber: "+589",
         scores: [
           {
-            id: 75,
+            id: 61,
             firstTeamScore: 1,
             secondTeamScore: 1,
           },
@@ -1153,44 +417,21 @@ export const LIVE_GAME = [
         markUp: [
           [
             {
-              id: 9,
+              id: 62,
               number: 7652,
               redFlag: false,
               greenFlag: true,
               lockedIcon: false,
             },
             {
-              id: 10,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 11,
+              id: 63,
               number: 7652,
               redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 12,
-              number: 7652,
-              redFlag: true,
               greenFlag: false,
-              lockedIcon: false,
+              lockedIcon: true,
             },
             {
-              id: 13,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 14,
+              id: 64,
               number: 7652,
               redFlag: false,
               greenFlag: true,
@@ -1199,21 +440,44 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 15,
+              id: 65,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
+            },
+            {
+              id: 66,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 16,
+              id: 67,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 68,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 69,
               number: 7652,
               redFlag: false,
               greenFlag: true,
               lockedIcon: false,
             },
             {
-              id: 17,
+              id: 70,
               number: 7652,
               redFlag: true,
               greenFlag: false,
@@ -1222,21 +486,21 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 15,
+              id: 71,
               number: 7652,
-              redFlag: true,
+              redFlag: false,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 16,
+              id: 72,
               number: 7652,
               redFlag: false,
               greenFlag: true,
               lockedIcon: false,
             },
             {
-              id: 17,
+              id: 73,
               number: 7652,
               redFlag: true,
               greenFlag: false,
@@ -1245,21 +509,21 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 15,
+              id: 74,
               number: 7652,
-              redFlag: true,
+              redFlag: false,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 16,
+              id: 75,
               number: 7652,
               redFlag: false,
               greenFlag: true,
               lockedIcon: false,
             },
             {
-              id: 17,
+              id: 76,
               number: 7652,
               redFlag: true,
               greenFlag: false,
@@ -1268,196 +532,36 @@ export const LIVE_GAME = [
           ],
         ],
         bottomIcons: [
-          {
-            id: 18,
-            svgIcon: "#youtube-168",
-          },
-          {
-            id: 20,
-            svgIcon: "#diagram-bar-3-svgrepo-com",
-          },
-          {
-            id: 22,
-            svgIcon: "#winner",
-          },
-        ],
-        leftIcons: [
-          {
-            id: 5,
-            svgIcon: "#pin",
-          },
-          {
-            id: 6,
-            svgIcon: "#star-sharp",
-          },
-        ],
-      },
-      {
-        id: 76,
-        firstTeamName: "Azul Claro Numazu",
-        firstTeamLogo: azulImg,
-        secondTeamName: "Yokohama",
-        secondTeamLogo: conImg,
-        teamLastNumber: "+589",
-        scores: [
           {
             id: 77,
-            firstTeamScore: 1,
-            secondTeamScore: 1,
-          },
-        ],
-        markUp: [
-          [
-            {
-              id: 9,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 10,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 11,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 12,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 13,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 14,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-          [
-            {
-              id: 15,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 16,
-              number: 7652,
-              redFlag: false,
-              greenFlag: true,
-              lockedIcon: false,
-            },
-            {
-              id: 17,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-          ],
-        ],
-        bottomIcons: [
-          {
-            id: 18,
             svgIcon: "#youtube-168",
           },
           {
-            id: 19,
+            id: 78,
             svgIcon: "#football-field",
           },
           {
-            id: 20,
+            id: 79,
             svgIcon: "#diagram-bar-3-svgrepo-com",
           },
           {
-            id: 21,
+            id: 80,
             svgIcon: "#diagram",
-          },
-          {
-            id: 22,
-            svgIcon: "#winner",
           },
         ],
         leftIcons: [
           {
-            id: 5,
+            id: 81,
             svgIcon: "#pin",
           },
           {
-            id: 6,
+            id: 82,
             svgIcon: "#star-sharp",
           },
         ],
       },
       {
-        id: 78,
+        id: 83,
         firstTeamName: "Azul Claro Numazu",
         firstTeamLogo: azulImg,
         secondTeamName: "Yokohama",
@@ -1465,7 +569,7 @@ export const LIVE_GAME = [
         teamLastNumber: "+589",
         scores: [
           {
-            id: 79,
+            id: 84,
             firstTeamScore: 1,
             secondTeamScore: 1,
           },
@@ -1473,44 +577,21 @@ export const LIVE_GAME = [
         markUp: [
           [
             {
-              id: 9,
+              id: 85,
               number: 7652,
               redFlag: false,
-              greenFlag: false,
-              lockedIcon: true,
+              greenFlag: true,
+              lockedIcon: false,
             },
             {
-              id: 10,
+              id: 86,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 11,
-              number: 7652,
-              redFlag: false,
-              greenFlag: false,
-              lockedIcon: true,
-            },
-          ],
-          [
-            {
-              id: 12,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 13,
-              number: 7652,
-              redFlag: true,
-              greenFlag: false,
-              lockedIcon: false,
-            },
-            {
-              id: 14,
+              id: 87,
               number: 7652,
               redFlag: false,
               greenFlag: true,
@@ -1519,21 +600,940 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 15,
+              id: 88,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 16,
+              id: 89,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 90,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 91,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 92,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 93,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 94,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 95,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 96,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 97,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 98,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 99,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+        ],
+        bottomIcons: [
+          {
+            id: 100,
+            svgIcon: "#youtube-168",
+          },
+          {
+            id: 101,
+            svgIcon: "#diagram-bar-3-svgrepo-com",
+          },
+          {
+            id: 102,
+            svgIcon: "#diagram",
+          },
+        ],
+        leftIcons: [
+          {
+            id: 103,
+            svgIcon: "#pin",
+          },
+          {
+            id: 104,
+            svgIcon: "#star-sharp",
+          },
+        ],
+      },
+      {
+        id: 105,
+        firstTeamName: "Azul Claro Numazu",
+        firstTeamLogo: azulImg,
+        secondTeamName: "Yokohama",
+        secondTeamLogo: conImg,
+        teamLastNumber: "+589",
+        scores: [
+          {
+            id: 106,
+            firstTeamScore: 1,
+            secondTeamScore: 1,
+          },
+        ],
+        markUp: [
+          [
+            {
+              id: 107,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 108,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 109,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 110,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 111,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 112,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 113,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 114,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 115,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 116,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 117,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 118,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 119,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 120,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 121,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+        ],
+        bottomIcons: [
+          {
+            id: 122,
+            svgIcon: "#youtube-168",
+          },
+          {
+            id: 123,
+            svgIcon: "#football-field",
+          },
+          {
+            id: 124,
+            svgIcon: "#diagram-bar-3-svgrepo-com",
+          },
+          {
+            id: 125,
+            svgIcon: "#diagram",
+          },
+          {
+            id: 126,
+            svgIcon: "#winner",
+          },
+        ],
+        leftIcons: [
+          {
+            id: 127,
+            svgIcon: "#pin",
+          },
+          {
+            id: 128,
+            svgIcon: "#star-sharp",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 129,
+    league: [
+      {
+        id: 130,
+        leagueName: "Japan. Nabisco Cup",
+        leagueImg: japanImg,
+        leagueSvgIcon: "#ball-football",
+        lastNumber: "+5",
+        numbers: [
+          {
+            id: 131,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 132,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 133,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 134,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 135,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+        ],
+      },
+    ],
+    teams: [
+      {
+        id: 136,
+        firstTeamName: "Azul Claro Numazu",
+        firstTeamLogo: azulImg,
+        secondTeamName: "Yokohama",
+        secondTeamLogo: conImg,
+        teamLastNumber: "+589",
+        scores: [
+          {
+            id: 137,
+            firstTeamScore: 1,
+            secondTeamScore: 1,
+          },
+        ],
+        markUp: [
+          [
+            {
+              id: 138,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 139,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 140,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 141,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 142,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 143,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 144,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 145,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 146,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 147,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 148,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 149,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 150,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 151,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 152,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+        ],
+        bottomIcons: [
+          {
+            id: 153,
+            svgIcon: "#youtube-168",
+          },
+          {
+            id: 154,
+            svgIcon: "#football-field",
+          },
+          {
+            id: 155,
+            svgIcon: "#diagram-bar-3-svgrepo-com",
+          },
+          {
+            id: 156,
+            svgIcon: "#diagram",
+          },
+          {
+            id: 157,
+            svgIcon: "#winner",
+          },
+        ],
+        leftIcons: [
+          {
+            id: 158,
+            svgIcon: "#pin",
+          },
+          {
+            id: 159,
+            svgIcon: "#star-sharp",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 164,
+    league: [
+      {
+        id: 165,
+        leagueName: "Japan. Nabisco Cup",
+        leagueImg: japanImg,
+        leagueSvgIcon: "#tennis",
+        lastNumber: "+5555",
+        numbers: [
+          {
+            id: 162,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 163,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 164,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 165,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+          {
+            id: 166,
+            firstNumber: 1,
+            secondNumber: "X",
+            thirdNumber: 1,
+          },
+        ],
+      },
+    ],
+    teams: [
+      {
+        id: 167,
+        firstTeamName: "Azul Claro Numazu",
+        firstTeamLogo: azulImg,
+        secondTeamName: "Yokohama",
+        secondTeamLogo: conImg,
+        teamLastNumber: "+589",
+        scores: [
+          {
+            id: 168,
+            firstTeamScore: 1,
+            secondTeamScore: 1,
+          },
+        ],
+        markUp: [
+          [
+            {
+              id: 169,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 170,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 171,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 172,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 173,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 174,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 175,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 176,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 177,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 178,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 179,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 180,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 181,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 182,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 183,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+        ],
+        bottomIcons: [
+          {
+            id: 184,
+            svgIcon: "#youtube-168",
+          },
+          {
+            id: 185,
+            svgIcon: "#diagram-bar-3-svgrepo-com",
+          },
+          {
+            id: 186,
+            svgIcon: "#winner",
+          },
+        ],
+        leftIcons: [
+          {
+            id: 187,
+            svgIcon: "#pin",
+          },
+          {
+            id: 188,
+            svgIcon: "#star-sharp",
+          },
+        ],
+      },
+      {
+        id: 189,
+        firstTeamName: "Azul Claro Numazu",
+        firstTeamLogo: azulImg,
+        secondTeamName: "Yokohama",
+        secondTeamLogo: conImg,
+        teamLastNumber: "+589",
+        scores: [
+          {
+            id: 190,
+            firstTeamScore: 1,
+            secondTeamScore: 1,
+          },
+        ],
+        markUp: [
+          [
+            {
+              id: 191,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 192,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 193,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 194,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 195,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 196,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 197,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 198,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 199,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 200,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 201,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 202,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 203,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 204,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+            {
+              id: 205,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+          ],
+        ],
+        bottomIcons: [
+          {
+            id: 206,
+            svgIcon: "#youtube-168",
+          },
+          {
+            id: 207,
+            svgIcon: "#football-field",
+          },
+          {
+            id: 208,
+            svgIcon: "#diagram-bar-3-svgrepo-com",
+          },
+          {
+            id: 209,
+            svgIcon: "#diagram",
+          },
+          {
+            id: 210,
+            svgIcon: "#winner",
+          },
+        ],
+        leftIcons: [
+          {
+            id: 211,
+            svgIcon: "#pin",
+          },
+          {
+            id: 212,
+            svgIcon: "#star-sharp",
+          },
+        ],
+      },
+      {
+        id: 213,
+        firstTeamName: "Azul Claro Numazu",
+        firstTeamLogo: azulImg,
+        secondTeamName: "Yokohama",
+        secondTeamLogo: conImg,
+        teamLastNumber: "+589",
+        scores: [
+          {
+            id: 214,
+            firstTeamScore: 1,
+            secondTeamScore: 1,
+          },
+        ],
+        markUp: [
+          [
+            {
+              id: 215,
               number: 7652,
               redFlag: false,
               greenFlag: false,
               lockedIcon: true,
             },
             {
-              id: 17,
+              id: 216,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 217,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
+            },
+          ],
+          [
+            {
+              id: 218,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 219,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 220,
+              number: 7652,
+              redFlag: false,
+              greenFlag: true,
+              lockedIcon: false,
+            },
+          ],
+          [
+            {
+              id: 221,
+              number: 7652,
+              redFlag: true,
+              greenFlag: false,
+              lockedIcon: false,
+            },
+            {
+              id: 222,
+              number: 7652,
+              redFlag: false,
+              greenFlag: false,
+              lockedIcon: true,
+            },
+            {
+              id: 223,
               number: 76452,
               redFlag: false,
               greenFlag: false,
@@ -1542,21 +1542,21 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 15,
+              id: 224,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 16,
+              id: 225,
               number: 7652,
               redFlag: false,
               greenFlag: false,
               lockedIcon: true,
             },
             {
-              id: 17,
+              id: 226,
               number: 76452,
               redFlag: false,
               greenFlag: false,
@@ -1565,21 +1565,21 @@ export const LIVE_GAME = [
           ],
           [
             {
-              id: 15,
+              id: 227,
               number: 7652,
               redFlag: true,
               greenFlag: false,
               lockedIcon: false,
             },
             {
-              id: 16,
+              id: 228,
               number: 7652,
               redFlag: false,
               greenFlag: false,
               lockedIcon: true,
             },
             {
-              id: 17,
+              id: 229,
               number: 76452,
               redFlag: false,
               greenFlag: false,
@@ -1589,25 +1589,25 @@ export const LIVE_GAME = [
         ],
         bottomIcons: [
           {
-            id: 18,
+            id: 230,
             svgIcon: "#youtube-168",
           },
           {
-            id: 19,
+            id: 231,
             svgIcon: "#football-field",
           },
           {
-            id: 21,
+            id: 232,
             svgIcon: "#diagram",
           },
         ],
         leftIcons: [
           {
-            id: 5,
+            id: 233,
             svgIcon: "#pin",
           },
           {
-            id: 6,
+            id: 234,
             svgIcon: "#star-sharp",
           },
         ],

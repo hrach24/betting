@@ -1,30 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext } from "react";
 import classes from "./RightAsideHeader.module.scss";
 import classNames from "classnames";
 import BetSlip from "./betSlip/BetSlip";
 import Registration from "./registration/Registration";
-import { useMediaQuery } from "react-responsive";
+import { ClickContext } from "../../../util/Context";
 
 const RightAsideHeader = () => {
-  const [hideBar, setHideBar] = useState(false);
-  const hideLeftBar = useMediaQuery({ query: "(max-width: 1367px)" });
-  useEffect(() => {
-    setHideBar(hideLeftBar);
-  }, [hideLeftBar]);
+  const useTheCon = useContext(ClickContext);
+  console.log(useTheCon);
   return (
     <>
-      {!hideBar ? (
-        <div
-          className={classNames(
-            classes.rightAsideHeader,
-            "aside",
-            "globalPadding",
-          )}
-        >
-          <Registration />
-          <BetSlip />
-        </div>
-      ) : null}
+      <div
+        className={classNames(
+          classes.rightAsideHeader,
+          "aside",
+          "globalPadding",
+        )}
+      >
+        <Registration />
+        <BetSlip />
+      </div>
     </>
   );
 };

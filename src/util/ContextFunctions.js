@@ -41,3 +41,14 @@ export function getCurrentWindowSize() {
   let foundObj = obj.find((item) => item.windowSize < currentWindowSize);
   return foundObj !== undefined ? foundObj : { type: "mobile", count: 1 };
 }
+
+export function handleClick() {
+  const [cureBollen, setBool] = useState(false);
+
+  const changeTheProp = () => {
+    setBool(!cureBollen);
+  };
+  console.log(changeTheProp);
+  console.log(cureBollen);
+  return { cureBollen, setBool };
+}

@@ -5,7 +5,8 @@ import classNames from "classnames";
 import LeftIcons from "./leftIcons/LeftIcons";
 import MatchScores from "./matchScores/MatchScores";
 import BottomIcons from "./buttomIcons/BottomIcons";
-import { WindowContext } from "../../../util/windowSizeChecker";
+import { WindowContext } from "../../../util/Context";
+
 const LiveMatch = ({ data }) => {
   const window = useContext(WindowContext);
   return (

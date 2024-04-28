@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import classes from "./LiveGameLeague.module.scss";
 import classNames from "classnames";
-import { WindowContext } from "../../../util/windowSizeChecker";
+import { WindowContext } from "../../../util/Context";
 
 const LiveGameLeague = ({ data }) => {
   const window = useContext(WindowContext);
