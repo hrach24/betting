@@ -42,13 +42,7 @@ export function getCurrentWindowSize() {
   return foundObj !== undefined ? foundObj : { type: "mobile", count: 1 };
 }
 
-export function handleClick() {
-  const [cureBollen, setBool] = useState(false);
-
-  const changeTheProp = () => {
-    setBool(!cureBollen);
-  };
-  console.log(changeTheProp);
-  console.log(cureBollen);
-  return { cureBollen, setBool };
+export function values() {
+  const [value, setValue] = useState(false);
+  return { value, setValue };
 }

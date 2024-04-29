@@ -5,15 +5,15 @@ import RightAsideHeader from "../../components/layout/rightAsideHeader/RightAsid
 import Content from "../../components/content/Content";
 import { useMediaQuery } from "react-responsive";
 import { ClickContext } from "../../util/Context";
-import { handleClick } from "../../util/ContextFunctions";
+import { values } from "../../util/ContextFunctions";
+
 const Home = () => {
   const hideLeftBar = useMediaQuery({ query: "(max-width: 1367px)" });
-  const { cureBollen, setBool } = handleClick();
   return (
     <main className={classes.main}>
-      {hideLeftBar ? null : <LeftAsideHeader />}
-      <Content />
-      <ClickContext.Provider value={{ cureBollen, setBool }}>
+      <ClickContext.Provider value={values()}>
+        {hideLeftBar ? null : <LeftAsideHeader />}
+        <Content />
         {hideLeftBar ? null : <RightAsideHeader />}
       </ClickContext.Provider>
     </main>

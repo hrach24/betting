@@ -1,7 +1,8 @@
 .liveStreamContainer {
   max-width: 163px;
   cursor: pointer;
-  border-right: 1px solid hsl(208deg 29.9% 23.03%)
+  border-right: 1px solid hsl(208deg 29.9% 23.03%);
+  flex-shrink: 0;
 }
 
 .liveToggle {

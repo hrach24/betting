@@ -26,3 +26,34 @@
   font-size: 13px;
   border-bottom: 2px solid #7EAC2F;
 }
+
+
+.svgOrderIcon {
+  width: 18px;
+  height: 18px;
+  stroke: #B7C1D2
+}
+
+.svgItem {
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  justify-content: center;
+  flex-direction: column-reverse;
+  position: relative;
+}
+
+.svgItemDropDown {
+  position: absolute;
+  display: none;
+  transform: translate(50%, 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}

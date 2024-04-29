@@ -8,12 +8,11 @@ import { useMediaQuery } from "react-responsive";
 
 const LeftAsideFooter = () => {
   const [showLeftBar, updateTheProp] = useState(false);
-  const hideLeftBar = useMediaQuery({ query: "(max-width: 1367px)" });
+  const hideLeftBar = useMediaQuery({ query: "(min-width: 1367px)" });
 
   useEffect(() => {
-    hideLeftBar ? updateTheProp(!showLeftBar) : updateTheProp(false);
+    hideLeftBar ? updateTheProp(showLeftBar) : updateTheProp(false);
   }, [hideLeftBar]);
-
   return (
     <div
       className={classNames(classes.leftAsideFooter, "aside", {

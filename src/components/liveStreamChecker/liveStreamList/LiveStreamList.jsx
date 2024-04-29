@@ -1,10 +1,17 @@
 import React, { useState } from "react";
-import classes from "./LiveStream.module.scss";
+import classes from "./LiveStreamList.module.scss";
 import { Link } from "react-router-dom";
 import classNames from "classnames";
+import { useMediaQuery } from "react-responsive";
 const LiveStreamList = () => {
   const [childDropDown, setChildDropDown] = useState(false);
-  const [parenthover, setParentHover] = useState(false);
+  const [parentHover, setParentHover] = useState(false);
+  const media = useMediaQuery({ query: "(max-width: 850px)" });
+  const secondMedia = useMediaQuery({ query: "(max-width: 670px)" });
+  const thirdMedia = useMediaQuery({ query: "(max-width: 730px)" });
+  const forthMedia = useMediaQuery({ query: "(max-width: 530px)" });
+  const fifthMedia = useMediaQuery({ query: "(max-width: 435px)" });
+
   return (
     <ul className={classes.liveStreamList}>
       <li className={classes.liveStreamItem}>
@@ -12,51 +19,64 @@ const LiveStreamList = () => {
           <svg className={classes.svgIcon}>
             <use xlinkHref="#ball-football"></use>
           </svg>
-
           <div className={classes.liveItemText}>Football</div>
         </Link>
       </li>
-      <li className={classes.liveStreamItem}>
-        <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
-          <svg className={classes.svgIcon}>
-            <use xlinkHref="#tennis"></use>
-          </svg>
-          <div className={classes.liveItemText}>Tennis</div>
-        </Link>
-      </li>
-      <li className={classes.liveStreamItem}>
-        <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
-          <svg className={classes.svgIcon}>
-            <use xlinkHref="#basketball"></use>
-          </svg>
-          <div className={classes.liveItemText}>Basketball</div>
-        </Link>
-      </li>
-      <li className={classes.liveStreamItem}>
-        <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
-          <svg className={classes.svgIcon}>
-            <use xlinkHref="#ice-hockey-puck"></use>
-          </svg>
-          <div className={classes.liveItemText}>Basketball</div>
-        </Link>
-      </li>
-      <li className={classes.liveStreamItem}>
-        <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
-          <svg className={classes.svgIcon}>
-            <use xlinkHref="#volleyball-2"></use>
-          </svg>
-          <div className={classes.liveItemText}>Volleyball</div>
-        </Link>
-      </li>
-      <li className={classes.liveStreamItem}>
-        <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
-          <svg className={classes.svgIcon}>
-            <use xlinkHref="#table-tennis-4"></use>
-          </svg>
+      {!fifthMedia ? (
+        <li className={classes.liveStreamItem}>
+          <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
+            <svg className={classes.svgIcon}>
+              <use xlinkHref="#tennis"></use>
+            </svg>
+            <div className={classes.liveItemText}>Tennis</div>
+          </Link>
+        </li>
+      ) : null}
 
-          <div className={classes.liveItemText}>Table Tennis</div>
-        </Link>
-      </li>
+      {!forthMedia ? (
+        <li className={classes.liveStreamItem}>
+          <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
+            <svg className={classes.svgIcon}>
+              <use xlinkHref="#basketball"></use>
+            </svg>
+            <div className={classes.liveItemText}>Basketball</div>
+          </Link>
+        </li>
+      ) : null}
+
+      {!thirdMedia ? (
+        <li className={classes.liveStreamItem}>
+          <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
+            <svg className={classes.svgIcon}>
+              <use xlinkHref="#ice-hockey-puck"></use>
+            </svg>
+            <div className={classes.liveItemText}>Basketball</div>
+          </Link>
+        </li>
+      ) : null}
+
+      {!secondMedia ? (
+        <li className={classes.liveStreamItem}>
+          <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
+            <svg className={classes.svgIcon}>
+              <use xlinkHref="#volleyball-2"></use>
+            </svg>
+            <div className={classes.liveItemText}>Volleyball</div>
+          </Link>
+        </li>
+      ) : null}
+
+      {!media ? (
+        <li className={classes.liveStreamItem}>
+          <Link to={"#"} alt={"#"} className={classes.liveStreamLink}>
+            <svg className={classes.svgIcon}>
+              <use xlinkHref="#table-tennis-4"></use>
+            </svg>
+
+            <div className={classes.liveItemText}>Table Tennis</div>
+          </Link>
+        </li>
+      ) : null}
 
       <li
         className={classNames(
@@ -74,7 +94,7 @@ const LiveStreamList = () => {
             <use xlinkHref="#arrow-down-338"></use>
           </svg>
         </div>
-        {parenthover ? (
+        {parentHover ? (
           <div
             className={classes.dropDown}
             onMouseEnter={() => setParentHover(true)}
