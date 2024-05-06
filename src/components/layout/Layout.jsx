@@ -14,11 +14,11 @@ const Layout = () => {
   return (
     <div className={classes.wrapper}>
       <WindowContext.Provider value={getCurrentWindowSize()}>
-        <SvgSprite />
-        <Header />
-        <Outlet />
-        <Footer />
         <ClickContext.Provider value={values()}>
+          <SvgSprite />
+          <Header />
+          <Outlet />
+          <Footer />
           {hideLeftBar ? <MobileBottomHeader /> : null}
         </ClickContext.Provider>
       </WindowContext.Provider>

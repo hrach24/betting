@@ -22,7 +22,23 @@
 
 .games {
   position: absolute;
-  //width: 200px;
   height: 100%;
   background-color: #1D4268;
+}
+
+.betSlip {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  background-color: #1D4268;
+}
+
+.betSlipPortal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
 }

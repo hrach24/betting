@@ -43,6 +43,6 @@ export function getCurrentWindowSize() {
 }
 
 export function values() {
-  const [value, setValue] = useState(false);
-  return { value, setValue };
+  const [clicked, setValue] = useState(false);
+  return { clicked, setValue };
 }

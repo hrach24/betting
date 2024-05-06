@@ -1,18 +1,27 @@
-import React, { useContext } from "react";
+import React from "react";
 import classes from "./Button.module.scss";
 import classNames from "classnames";
-import { ClickContext } from "../../../util/Context";
 
-const Button = ({ registration, logInBtn, text }) => {
-  const { value, setValue } = useContext(ClickContext);
-
+const Button = ({
+  registration,
+  logInBtn,
+  text,
+  clickedContextValue,
+  clickedContextSetValue,
+  buttonId,
+  setButtonId,
+}) => {
+  function clickFunc() {
+    clickedContextSetValue(!clickedContextValue);
+    setButtonId(buttonId);
+  }
   return (
     <button
       className={classNames(classes.btn, {
         [classes.registrationBtn]: registration,
         [classes.logInBtn]: logInBtn,
       })}
-      onClick={() => setValue(!value)}
+      onClick={clickFunc}
     >
       {text}
     </button>
